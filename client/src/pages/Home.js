@@ -1,9 +1,27 @@
-// why isn't this showing up in the DOM?
-    // can you see it in the debugger?
+import { useEffect, useState } from "react"
+
 const Home = () => {
+    const [worksamples, setWorksamples] = useState([])
+
+    useEffect(() => {
+        const fetchIt = async () => {
+            const response = await fetch('/api/worksamples')
+            const json = await response.json()
+
+            if (response.ok) {
+                setWorksamples(json)
+            }
+        }
+        fetchIt()
+    }, [])
+
     return (
         <div className="home">
-            <h2>Home</h2>
+            <div className="workSamples">
+                {worksamples && worksamples.map((worksample) => (
+                    <p key={worksample._id}>{worksample.clientName}</p>
+                ))}
+            </div>
         </div>
     )
 }
