@@ -1,0 +1,1 @@
+// Route all the pages through an exported function that imports into the app.js file
