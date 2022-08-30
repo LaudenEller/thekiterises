@@ -1,6 +1,7 @@
+// TODO: This component will be deleted, but it is currently the navbar that appears in the DOM
 import { Link } from "react-router-dom"
 
-const Navbar = () => {
+function Navbar() {
 
     return (
         <header>

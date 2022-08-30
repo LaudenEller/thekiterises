@@ -4,7 +4,10 @@
 
 // This module will return the navbar, the desired page through the ApplicationViews module, and the footer
 
+import { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Backdrop } from './components/nav/backdrop/Backdrop';
+import SideDrawer from './components/nav/SideDrawer';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 
@@ -23,6 +26,7 @@ function App() {
 if (sideDrawerOpen === true) {
 backdrop = <Backdrop click={BackdropClickHandler} />
 }
+
   
   return (
     <div className="App">
@@ -42,4 +46,4 @@ backdrop = <Backdrop click={BackdropClickHandler} />
   );
 }
 
-export default App;
+export default App

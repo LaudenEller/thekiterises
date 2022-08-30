@@ -1,4 +1,7 @@
-import { Box } from "@mui/material";
+// HELP: Why is this component separate from the NavBar component??? 
+// This component displays hamburger style button that opens and closes the nav bar, 
+  // it also has an animation which wiggle the button conditionally through props
+  
 import  React  from "react";
 import { useHistory } from "react-router-dom";
 import "./DrawerToggler.css"
