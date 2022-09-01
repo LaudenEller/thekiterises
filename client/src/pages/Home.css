@@ -1,3 +1,7 @@
+.welcome-animation-container {
+    height: 335px;
+}
+
 #home_page_container {
     --pinned-layer-in-container: 49;
     --above-all-in-container: 49;
@@ -81,6 +85,53 @@ body {
     --minViewportSize: 320;
     --color_26: 207,172,242;
     --maxViewportSize: 1920;
+}
+
+.description-container {
+    display: flex;
+}
+
+.backcolor_16 {
+    background-color: rgb(var(--color_16));
+}
+
+.font_2 {
+    font: var(--font_2);
+    color: rgb(var(--color_15));
+    text-decoration: none;
+    text-align: left;
+    font-family: lulo-clean-w01-one-bold,lulo-clean-w05-one-bold,sans-serif;
+    font-size: 60px !important;
+    font-weight: bold;
+    overflow-wrap: break-word;
+}
+
+.image-container {
+    max-width: 26%;
+    /* padding-right: 2em; */
+}
+
+.image-container img {
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+
+.text-container {
+    display: flex;
+    align-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    width: 52.37112052551409%;
+    align-self: center;
+    justify-self: center;
+    margin-left: 8.75737814166032%;
+    margin-right: 0%;
+    margin-top: 40px;
+    position: relative;
+
+}
+.text-container h2 {
+    text-decoration: none;
 }
 
 #our_work_container {
@@ -298,10 +349,10 @@ a:hover {
 
 #master {
    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-   font-size: 60px;
+   font-size: 40px;
    line-height: 1;
    font-weight: bold;
-   letter-spacing: 0;
+   letter-spacing: 1;
    -webkit-font-smoothing: inherit
 }
 
@@ -348,7 +399,7 @@ a:hover {
 }
 
 #master-container-scroller {
-   height: 66px;
+   height: 40px;
    margin-bottom: -6px;
    overflow: hidden;
    position: relative

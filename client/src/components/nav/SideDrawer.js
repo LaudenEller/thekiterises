@@ -82,7 +82,9 @@ function SideDrawer({ show, setSideDrawerOpen, sideDrawerOpen }) {
 
     return (
         <>
-        <p>Test</p>
+        <nav className={drawerClasses}>
+               <p>test</p>
+            </nav>
             {/* <div id="POPUPS_ROOT" class="_21cN2">
                 <div id="popups-wrapper" class="DPb1o" tabindex="-1" role="dialog">
                     <div id="hb7v8" class="_1Munm _3BB23">

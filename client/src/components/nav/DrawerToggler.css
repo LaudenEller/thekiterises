@@ -1,16 +1,77 @@
 .toggle-button {
     display: flex;
-    flex-direction: column;
-    /* justify-content: space-around; */
-    height: 24px;
-    width: 30px;
-    background: transparent;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    /* height: 24px;
+    width: 30px; */
+    background: black;
     border: none;
     cursor: pointer;
-    padding: 0;
+    /* padding: 0; */
     box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    opacity: var(--opacity);
+    fill: var(--fill);
+    fill-opacity: var(--fill-opacity);
+    stroke: var(--stroke);
+    stroke-opacity: var(--stroke-opacity);
+    stroke-width: var(--stroke-width);
+    transform: var(--flip);
+    filter: var(--drop-shadow,none);
+    border-radius: 75%;
+    width: var(--svg-calculated-width,100%);
+    height: var(--svg-calculated-height,100%);
+    padding: var(--svg-calculated-padding,0);
+    margin: auto;
 }
 
-.toggle-button:focus {
+.N1N2o {
+    cursor: pointer;
+}
+
+.toggle-button, .toggle-button svg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#toggle-button-box {
+    --opacity: 1;
+    height: 45px;
+    width: 45px;
+    align-self: center;
+    justify-self: end;
+    position: relative;
+    margin-left: 0%;
+    margin-right: 4.815076798706548%;
+    /* margin-top: 25px; */
+    margin-bottom: 0px;
+    grid-area: 1/1/2/2;
+}
+
+/* @media (min-width: 320px) and (max-width: 750px)
+#toggle-button-box {
+    height: 27.5546875px;
+    width: 27.5546875px;
+    margin-right: 9.072066326530612%;
+    margin-top: 0px;
+} */
+
+.toggle-button svg {
+    width: var(--svg-calculated-width,100%);
+    height: var(--svg-calculated-height,100%);
+    padding: var(--svg-calculated-padding,0);
+    margin: auto;
+}
+
+/* .toggle-button:focus {
     outline: none;
 }
+
+.toggle-button-line {
+    width: 100%;
+    height: 2px;
+    background: white;
+} */

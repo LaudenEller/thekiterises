@@ -8,7 +8,7 @@ import { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Backdrop } from './components/nav/backdrop/Backdrop';
 import SideDrawer from './components/nav/SideDrawer';
-import Navbar from './components/Navbar';
+import { NavBar } from './components/nav/NavBar1';
 import Home from './pages/Home';
 
 function App() {
@@ -31,7 +31,7 @@ backdrop = <Backdrop click={BackdropClickHandler} />
   return (
     <div className="App">
       <BrowserRouter>
-      <Navbar drawerClickHandler={DrawerTogglerHandler}/>
+      <NavBar drawerClickHandler={DrawerTogglerHandler}/>
       <SideDrawer show={sideDrawerOpen} setSideDrawerOpen={setSideDrawerOpen} sideDrawerOpen={sideDrawerOpen} />
                 {backdrop}
         <div className='pages'>
