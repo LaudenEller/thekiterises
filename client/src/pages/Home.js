@@ -25,9 +25,9 @@ const Home = () => {
 
     return (
         // parent container for this page's content that's sandwiched between the navbar and the footer 
-        <div classNameName="home">
+        <div className="home">
             {/* fetched data that will be removed from this page */}
-            <div classNameName="workSamples">
+            <div className="workSamples">
                 {worksamples && worksamples.map((worksample) => (
                     <p key={worksample._id}>{worksample.clientName}</p>
                 ))}
@@ -81,7 +81,7 @@ const Home = () => {
             <section className="services-container">
                         <div className="services-box">
                                     <div className="services-box-title">
-                                        <h2 className="font_2"><span>Digital Strategy</span></h2>
+                                        <h2 className="services-title">Digital Strategy</h2>
                                     </div>
                                     <div className="services-box-content">
                                         <ul className="--font_8" style={{ textAlign: "left" }}>
@@ -220,7 +220,7 @@ const Home = () => {
             Add graphic container
             Add graphic */}
             {/* Remove this section below here because it will be replaced with footer module */}
-            <div classNameName="contact-form-container">
+            <div className="contact-form-container">
                 <ContactForm />
             </div>
         </div>

@@ -15,7 +15,7 @@ main {
     display: block;
 }
 
-#nvemy {
+/* #nvemy {
     --bg: 255,255,255;
     --alpha-bg: 1;
     --shc-mutated-brightness: 128,128,128;
@@ -28,7 +28,7 @@ main {
 body {
     font-size: 10px;
     font-family: Arial,Helvetica,sans-serif;
-}
+} */
 
 :root {
     --color_0: 255,255,255;
@@ -87,7 +87,7 @@ body {
     --maxViewportSize: 1920;
 }
 
-.services-list-item {
+/* .services-list-item {
     color: #262626;
     font-size: 16px;
     text-align: left;
@@ -102,7 +102,7 @@ body {
 
 .backcolor_16 {
     background-color: rgb(var(--color_16));
-}
+} */
 
 .font_2 {
     font: var(--font_2);
@@ -116,8 +116,82 @@ body {
 }
 
 .services-container {
-    
+    display: flex;
+    flex-wrap: wrap;
+
+    /* box-sizing: border-box;
+    display: grid;
+    grid-template-rows: minmax(65.59614px,max-content) minmax(286.26566px,max-content) minmax(40.997585px,max-content);
+    grid-template-columns: 1fr; */
+
+    position: relative;
+    box-sizing: border-box;
+    row-gap: 0%;
+    column-gap: 1.3303769401330376vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
 }
+
+.services-title {
+    /* margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+
+    font-family: lulo-clean-w01-one-bold,lulo-clean-w05-one-bold,sans-serif !important;
+    font-weight: bold !important;
+    font-size: 15px !important;
+
+    text-align: left;
+
+    line-height: normal;
+    letter-spacing: normal;
+
+    font: var(--font_2);
+    color: rgb(var(--color_15));
+
+    pointer-events: auto;
+
+    --minViewportSize: 320;
+    --maxViewportSize: 1000;
+
+    --textAlign: left;
+    --fontFamily: lulo-clean-w01-one-bold,lulo-clean-w05-one-bold,sans-serif;
+    --fontSize: 15px;
+    --fontWeight: bold;
+
+    overflow-wrap: break-word;
+
+    --brw: 0px;
+    --brd: var(--color_15);
+    --bg: 0,0,0;
+    --rd: 0px;
+    --shd: none;
+    --alpha-brd: 0;
+    --alpha-bg: 0;
+    --boxShadowToggleOn-shd: none;
+    --shc-mutated-brightness: 0,0,0,0;
+
+    --container-corvid-border-color: rgba(var(--brd,var(--color_15)),var(--alpha-brd,1));
+    --container-corvid-border-size: var(--brw,1px);
+    --container-corvid-background-color: rgba(var(--bg,var(--color_11)),var(--alpha-bg,1));
+
+    visibility: inherit;
+
+    --bg-overlay-color: rgb(var(--color_16));
+    --bg-gradient: none;
+
+    --pinned-layer-in-container: 49;
+    --above-all-in-container: 49;
+
+    --transition-duration: 700ms; */
+}
+
 
 .image-container {
     max-width: 26%;
@@ -312,7 +386,7 @@ body {
     grid-template-columns: 1fr;
 }
 
-.services-banner-container {
+/* .services-banner-container {
     position: relative;
     box-sizing: border-box;
     row-gap: 0%;
@@ -321,9 +395,9 @@ body {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-}
+} */
 
-#services_list {
+/* #services_list {
     --bg: var(--color_11);
     --alpha-bg: 0;
     --bg-overlay-color: rgb(var(--color_16));
@@ -337,16 +411,16 @@ body {
     justify-self: stretch;
     position: relative;
     grid-area: 4/1/5/2;
-}
+} */
 
-.services-container {
+/* .services-container {
     box-sizing: border-box;
     display: grid;
     grid-template-rows: minmax(65.59614px,max-content) minmax(286.26566px,max-content) minmax(40.997585px,max-content);
     grid-template-columns: 1fr;
-}
+} */
 
- html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+ /* html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -354,7 +428,7 @@ body {
     font-size: 100%;
     vertical-align: baseline;
     background: transparent
-}
+} */
 
 a {
     margin: 0;
