@@ -5,6 +5,7 @@
 
 import { useEffect, useState } from "react"
 import ContactForm from "../components/ContactForm"
+import Footer from "../components/Footer"
 import "./Home.css"
 
 const Home = () => {
@@ -222,6 +223,9 @@ const Home = () => {
             {/* Remove this section below here because it will be replaced with footer module */}
             <div className="contact-form-container">
                 <ContactForm />
+            </div>
+            <div className="footer-container">
+                <Footer />
             </div>
         </div>
     )

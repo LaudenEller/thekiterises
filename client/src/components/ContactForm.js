@@ -1,7 +1,7 @@
 // this module will be renamed "footer" and contain a contact form that is connected to an email address
 // TODO: does MongoDB Atlas have any built-in email/contact functionality?
 // does whichever CSS library I go with have any built-in contact/form functionality
-import "./Footer.css"
+import "./ContactForm.css"
 
 const ContactForm = () => {
     return (
@@ -31,26 +31,22 @@ const ContactForm = () => {
                         </div>
                     <div id="comp-ka50ygve3_r_comp-k9siraya" className="nK06J">
                         <div className="XRJUI">
-                            <input type="text" name="first-name" id="input_comp-ka50ygve3_r_comp-k9siraya" className="_1SOvY has-custom-focus" value="" placeholder="First Name" aria-required="false" maxLength="100" aria-label="First Name" data-np-autofill-type="name_first" data-np-uid="d8fac890-1100-422d-90ad-bef24062bff2" autoComplete="off" data-np-checked="1">
-                                <span data-np-uid="d8fac890-1100-422d-90ad-bef24062bff2" style={{ width: "24px", minWidth: "24px", height: "24px", backgroundImage: "url(&quot;chrome-extension://fooolghllnmhmmndgjiamiiodkpenpbb/assets/manifestIcons/icon.svg&quot;)", backgroundRepeat: "no-repeat", backgroundPosition: "left center", backgroundSize: "auto", border: "none", display: "inline", visibility: "visible", position: "absolute", cursor: "pointer", zIndex: "1001", padding: "0px", transition: "none 0s ease 0s", pointerEvents: "all", right: "0px", left: "464.609px", top: "16px" }}>
-
-                                </span>
-                            </input>
+                            <input type="text" name="first-name" id="input_comp-ka50ygve3_r_comp-k9siraya" className="_1SOvY has-custom-focus" value="" placeholder="First Name" aria-required="false" maxLength="100" aria-label="First Name" data-np-autofill-type="name_first" data-np-uid="d8fac890-1100-422d-90ad-bef24062bff2" autoComplete="off" data-np-checked="1"/>
+                                <span data-np-uid="d8fac890-1100-422d-90ad-bef24062bff2" style={{ width: "24px", minWidth: "24px", height: "24px", backgroundImage: "url(&quot;chrome-extension://fooolghllnmhmmndgjiamiiodkpenpbb/assets/manifestIcons/icon.svg&quot;)", backgroundRepeat: "no-repeat", backgroundPosition: "left center", backgroundSize: "auto", border: "none", display: "inline", visibility: "visible", position: "absolute", cursor: "pointer", zIndex: "1001", padding: "0px", transition: "none 0s ease 0s", pointerEvents: "all", right: "0px", left: "464.609px", top: "16px" }}></span>
                             </div>
                             </div>
                             <div id="comp-ka50ygve3_r_comp-kaggp2k5" className="nK06J">
                                 <div className="XRJUI">
-                                <input type="text" name="last-name" id="input_comp-ka50ygve3_r_comp-kaggp2k5" className="_1SOvY has-custom-focus" value="" placeholder="Last Name" aria-required="false" maxLength="100" aria-label="Last Name" data-np-autofill-type="name_last" data-np-uid="8a46f6d9-7c27-4120-a7f9-5939ff303403" autoComplete="off" data-np-checked="1">
+                                <input type="text" name="last-name" id="input_comp-ka50ygve3_r_comp-kaggp2k5" className="_1SOvY has-custom-focus" value="" placeholder="Last Name" aria-required="false" maxLength="100" aria-label="Last Name" data-np-autofill-type="name_last" data-np-uid="8a46f6d9-7c27-4120-a7f9-5939ff303403" autoComplete="off" data-np-checked="1"/>
                                     <span data-np-uid="8a46f6d9-7c27-4120-a7f9-5939ff303403" style={{width: "24px", minWidth: "24px", height: "24px", backgroundImage: "url(&quot;chrome-extension://fooolghllnmhmmndgjiamiiodkpenpbb/assets/manifestIcons/icon.svg&quot;)", backgroundRepeat: "no-repeat", backgroundPosition: "left center", backgroundSize: "auto", border: "none", display: "inline", visibility: "visible", position: "absolute", cursor: "pointer", zIndex: "1001", padding: "0px", transition: "none 0s ease 0s", pointerEvents: "all", right: "0px", left: "464.609px", top: "16px"}}>
                                     </span>
-                                    </input>
                                     </div>
                                     </div>
                     <div id="comp-ka50ygve3_r_comp-k9sirayz3" className="nK06J _65cjg">
                         <div className="XRJUI">
-                            <input type="email" name="email" id="input_comp-ka50ygve3_r_comp-k9sirayz3" className="_1SOvY has-custom-focus" value="" placeholder="Email *" required="" aria-required="true" pattern="^.+@.+\.[a-zA-Z]{2,63}$" maxLength="250" aria-label="Email *" data-np-autofill-type="identity_email" data-np-uid="8a64e438-bf44-459d-9ffd-625d77d5b76b" autoComplete="off" data-np-checked="1">
+                            <input type="email" name="email" id="input_comp-ka50ygve3_r_comp-k9sirayz3" className="_1SOvY has-custom-focus" value="" placeholder="Email *" required="" aria-required="true" pattern="^.+@.+\.[a-zA-Z]{2,63}$" maxLength="250" aria-label="Email *" data-np-autofill-type="identity_email" data-np-uid="8a64e438-bf44-459d-9ffd-625d77d5b76b" autoComplete="off" data-np-checked="1"/>
                                 <span data-np-uid="8a64e438-bf44-459d-9ffd-625d77d5b76b" style={{ width: "24px", minWidth: "24px", height: "24px", backgroundImage: "url(&quot;chrome-extension://fooolghllnmhmmndgjiamiiodkpenpbb/assets/manifestIcons/icon.svg&quot;)", backgroundRepeat: "no-repeat", backgroundPosition: "left center", backgroundSize: "auto", border: "none", display: "inline", visibility: "visible", position: "absolute", cursor: "pointer", zIndex: "1001", padding: "0px", transition: "none 0s ease 0s", pointerEvents: "all", right: "0px", left: "464.609px", top: "16px"}}>
-                                </span></input></div></div>
+                                </span></div></div>
             <div className="_3vc75" id="comp-ka50ygve3_r_comp-k9sirayq" aria-disabled="false">
                 <button aria-disabled="false" data-testid="buttonElement" className="_3wqEk">
                     <span className="_1Qnnq">Submit</span></button>
