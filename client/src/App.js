@@ -10,6 +10,7 @@ import { Backdrop } from './components/nav/backdrop/Backdrop';
 import SideDrawer from './components/nav/SideDrawer';
 import { NavBar } from './components/nav/NavBar1';
 import Home from './pages/Home';
+import "@fontsource/barlow"
 
 function App() {
   const [sideDrawerOpen, setSideDrawerOpen] = useState(false)

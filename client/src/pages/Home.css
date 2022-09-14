@@ -74,7 +74,7 @@ body {
     --font_5: normal normal bold 24px/1.4em poppins-extralight,poppins,sans-serif;
     --font_6: normal normal bold 14px/1.4em poppins-extralight,poppins,sans-serif;
     --font_7: normal normal normal 22px/1.4em barlow-medium,barlow,sans-serif;
-    --font_8: normal normal bold 16px/1.4em barlow-extralight,barlow,sans-serif;
+    --font_8: normal normal normal 16px/1.4em barlow-extralight,barlow,sans-serif;
     --font_9: normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif;
     --font_10: normal normal normal 12px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
     --wix-ads-height: 0px;
@@ -107,12 +107,7 @@ body {
 .font_2 {
     font: var(--font_2);
     color: rgb(var(--color_15));
-    text-decoration: none;
-    text-align: left;
-    font-family: lulo-clean-w01-one-bold,lulo-clean-w05-one-bold,sans-serif;
-    font-size: 60px !important;
-    font-weight: bold;
-    overflow-wrap: break-word;
+    letter-spacing: 0em;
 }
 
 .services-container {
@@ -420,15 +415,19 @@ body {
     grid-template-columns: 1fr;
 } */
 
- /* html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
     margin: 0;
     padding: 0;
     border: 0;
     outline: 0;
     font-size: 100%;
     vertical-align: baseline;
-    background: transparent
-} */
+    background: transparent;
+}
+
+section {
+    --transition-duration: 700ms;
+}
 
 a {
     margin: 0;
