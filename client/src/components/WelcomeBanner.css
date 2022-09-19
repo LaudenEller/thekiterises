@@ -1,3 +1,13 @@
+#comp-l4wlbbgg img {
+    position: absolute;
+    vertical-align: baseline;
+    justify-self: center;
+    max-width: 100px;
+    margin-top: 10px;
+}
+
+
+
 /*! CSS Used from: Embedded */
 div,iframe,img,section{margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent;}
 :focus{outline:none;}
@@ -5,7 +15,7 @@ div,iframe,img,section{margin:0;padding:0;border:0;outline:0;vertical-align:base
 ._3SQN-,._3wnIc{position:absolute;top:0;width:100%;height:100%;}
 ._3wnIc{left:0;overflow:hidden;-webkit-mask-image:var(--mask-image,none);mask-image:var(--mask-image,none);-webkit-mask-position:var(--mask-position,0);mask-position:var(--mask-position,0);-webkit-mask-size:var(--mask-size,100%);mask-size:var(--mask-size,100%);-webkit-mask-repeat:var(--mask-repeat,no-repeat);mask-repeat:var(--mask-repeat,no-repeat);pointer-events:var(--fill-layer-background-media-pointer-events);}
 ._2GUhU{height:100%;}
-._3KzuS{background-color:var(--bg-overlay-color);background-image:var(--bg-gradient);}
+._3KzuS{background-color:var(--bg-overlay-color);background-image:var(--bg-gradient);max-height: 400px;}
 /*! CSS Used from: Embedded */
 ._1WP0F{width:100%;height:100%;}
 ._3Xz9Z{position:absolute;}
@@ -27,7 +37,7 @@ div,iframe,img,section{margin:0;padding:0;border:0;outline:0;vertical-align:base
 @media (min-width: 320px) and (max-width: 1680px){
 #comp-l4wldeva{min-height:0px;width:auto;align-self:stretch;justify-self:stretch;margin-right:0px;margin-top:0px;}
 #comp-l4zuust8{margin-right:30px;margin-top:24.703125px;margin-bottom:-26.046875px;}
-#comp-l4wlbbgg{min-height:500px;}
+/* #comp-l4wlbbgg{min-height:500px;} */
 }
 @media (min-width: 320px) and (max-width: 750px){
 #comp-l4wldeva{width:auto;min-height:0px;align-self:stretch;justify-self:stretch;margin-right:0px;margin-top:0px;}

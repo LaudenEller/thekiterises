@@ -28,7 +28,7 @@ ul{list-style:none;}
 ._38Oww{background-color:var(--container-corvid-background-color,rgba(var(--bg,var(--color_11)),var(--alpha-bg,1)));}
 /*! CSS Used from: Embedded */
 /* .font_2{font:var(--font_2);color:rgb(var(--color_15));letter-spacing:0em;} */
-.font_8{font:var(--font_8);color:rgb(var(--color_15));letter-spacing:0em;}
+.font_8{font:var(--font_8);color:rgb(var(--color_15));letter-spacing:0em;font-size: 11px !important; color: black !important;}
 /*! CSS Used from: Embedded */
 [id^="comp-l7f6x23l__"]{height:auto;width:100%;position:relative;margin-left:0%;margin-right:0px;margin-top:0.015602170018841824px;margin-bottom:-0.0005447236922332976px;align-self:center;order:1;}
 [id^="comp-l7f6x23o__"]{height:auto;width:92.48105578508351%;position:relative;margin-left:-7.5189442149164885%;margin-right:0px;margin-top:16.024549777365706px;margin-bottom:-0.0005447236922332976px;align-self:center;order:2;}

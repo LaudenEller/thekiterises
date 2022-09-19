@@ -115,6 +115,7 @@ const Home = () => {
 
             <section className="description-container">
                <Description />
+               <OurWork />
                 
             </section>
 
@@ -264,9 +265,9 @@ const Home = () => {
             Add text container
             Add graphic container
             Add graphic */}
-            <div className="work-container">
+            {/* <div className="work-container">
                 <OurWork />
-            </div>
+            </div> */}
     {/* Remove this section below here because it will be replaced with footer module */ }
             <div className="contact-form-container">
                 <ContactForm />

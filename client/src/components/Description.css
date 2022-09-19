@@ -34,7 +34,7 @@ div,h2,img,section,span{margin:0;padding:0;border:0;outline:0;vertical-align:bas
 @media (min-width: 320px) and (max-width: 1680px){
 #comp-l7kn5ae1{width:56.98941836349925%;justify-self:end;margin-right:14.81782616892911%;}
 #comp-l7knuxuv{width:18.431579673279128%;justify-self:end;margin-left:0%;margin-right:0%;margin-bottom:7.90625px;}
-#comp-l7knxrj8{width:19.168069632712452%;align-self:start;justify-self:start;margin-right:0%;margin-top:72.6171875px;margin-bottom:0px;}
+#comp-l7knxrj8{width:19.168069632712452%;align-self:start;justify-self:start;margin-right:0%;margin-top:0px;margin-bottom:0px;}
 #comp-l7ko0fai{width:0.34474129349656607%;align-self:end;justify-self:start;margin-right:0%;margin-bottom:7.8984375px;}
 #comp-l7kn4r24{grid-area:4/1/5/2;}
 }
@@ -88,7 +88,7 @@ div,h2,img,section,span{margin:0;padding:0;border:0;outline:0;vertical-align:bas
 }
 @media (min-width: 320px) and (max-width: 750px){
 #comp-l7kn5ae1{--textDecoration:none;--fontStyle:normal;--textAlign:left;--fontFamily:lulo-clean-w01-one-bold,lulo-clean-w05-one-bold,sans-serif;--fontSize:20px;}
-#comp-l7kn5ae1 h2{font-size:20px!important;}
+#comp-l7kn5ae1 h2{font-size:40px!important;}
 #comp-l7kn5ae1{--minViewportSize:320;--maxViewportSize:750;}
 }
 /*! CSS Used from: Embedded */
