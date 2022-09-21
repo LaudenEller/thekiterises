@@ -7,6 +7,10 @@
     --above-all-in-container: 49;
 }
 
+.home {
+    display: grid;
+}
+
 .page_container {
     display: contents;
 }
@@ -94,15 +98,15 @@ body {
     letter-spacing: 0.03em;
     line-height: 1.8;
     font: var(--font_8);
-}
+} */
 
 .description-container {
-    display: flex;
+    display: grid;
 }
 
 .backcolor_16 {
     background-color: rgb(var(--color_16));
-} */
+}
 
 .font_2 {
     font: var(--font_2);
