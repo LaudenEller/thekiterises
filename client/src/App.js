@@ -13,6 +13,7 @@ import Home from './pages/Home';
 import "@fontsource/barlow"
 import './index.css';
 import './fonts/lulo-clean-w01-one-bold.ttf'
+import Home1 from './pages/Home1';
 
 function App() {
   const [sideDrawerOpen, setSideDrawerOpen] = useState(false)
@@ -41,7 +42,7 @@ backdrop = <Backdrop click={BackdropClickHandler} />
           <Routes>
             <Route
               path="/"
-              element={<Home /> } />
+              element={<Home1 /> } />
           </Routes>
         </div>
       </BrowserRouter>

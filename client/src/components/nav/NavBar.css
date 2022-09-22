@@ -13,10 +13,11 @@
     grid-template-columns: 1fr;
 }
 
-.nav img {
-    position: absolute;
-    vertical-align: baseline;
-    justify-self: center;
+#comp-ka50ygrl_r_comp-k9s87bm3 img {
+    /* position: absolute; */
+    /* vertical-align: baseline; */
+    /* justify-self: center; */
     max-width: 100px;
     margin-top: 10px;
+    margin-left: 150px;
 }
