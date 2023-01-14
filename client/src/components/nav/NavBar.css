@@ -1,0 +1,23 @@
+.nav {
+    --bg: rgb(255,255,255);
+    --alpha-bg: 1;
+    height: 70px;
+    min-height: 0px;
+    align-self: stretch;
+    justify-self: stretch;
+    position: relative;
+    grid-area: 1/1/2/2;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+}
+
+#comp-ka50ygrl_r_comp-k9s87bm3 img {
+    /* position: absolute; */
+    /* vertical-align: baseline; */
+    /* justify-self: center; */
+    max-width: 100px;
+    margin-top: 10px;
+    margin-left: 150px;
+}

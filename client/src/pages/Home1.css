@@ -1,0 +1,7 @@
+.home1 {
+    position: relative;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto;
+    grid-template-columns: minmax(0px,1fr);
+}
