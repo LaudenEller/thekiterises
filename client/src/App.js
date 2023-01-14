@@ -42,7 +42,7 @@ backdrop = <Backdrop click={BackdropClickHandler} />
           <Routes>
             <Route
               path="/"
-              element={<Home1 /> } />
+              element={<Home /> } />
           </Routes>
         </div>
       </BrowserRouter>

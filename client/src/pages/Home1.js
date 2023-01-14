@@ -33,7 +33,7 @@ const Home1 = () => {
                             <li id="dataItem-l2lk0oa3-comp-l2lk0oa1" className="_2lHsw">
                                 <a data-testid="linkElement" href="https://www.facebook.com/thekiterises" target="_blank" rel="noreferrer noopener" className="_2MTXI">
                                     <wix-image id="img_0_comp-l2lk0oa1" className="_1-6YJ t7wUO" data-image-info="{&quot;containerId&quot;:&quot;dataItem-l2lk0oa3-comp-l2lk0oa1&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;imageData&quot;:{&quot;width&quot;:200,&quot;height&quot;:200,&quot;uri&quot;:&quot;23fd2a2be53141ed810f4d3dcdcd01fa.png&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-has-bg-scroll-effect="" data-bg-effect-name="" data-has-ssr-src="" data-src="https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_60,h_60,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/23fd2a2be53141ed810f4d3dcdcd01fa.png">
-                                        <img alt="Facebook" style={{ width: "30px;", height: "30px;", objectFit: "cover;" }} />
+                                        <img alt="Facebook" style={{ width: "30px", height: "30px", objectFit: "cover" }} />
                                     </wix-image></a></li>
                             <li id="dataItem-l2lk0oa32-comp-l2lk0oa1" className="_2lHsw">
                                 <a data-testid="linkElement" href="https://www.instagram.com/thekiterises/" target="_blank" rel="noreferrer noopener" className="_2MTXI">
