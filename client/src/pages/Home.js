@@ -34,55 +34,36 @@ const Home = () => {
         // parent container for this page's content that's sandwiched between the navbar and the footer 
         <div className="home">
             {/* fetched data that will be removed from this page */}
-            <div className="workSamples">
+            {/* <div className="workSamples">
                 {worksamples && worksamples.map((worksample) => (
                     <p key={worksample._id}>{worksample.clientName}</p>
                 ))}
-            </div>
+            </div> */}
 
             <section className="welcomeBanner">
                 <WelcomeBanner />
             </section>
 
- {/* Add Services container with background "color rgb(var(--color_16))"
-            Add five service list containers
-            Add five uls */}
-            {/* services container */}
             {/* Services container */}
-            <section className="services1-container">
+            {/* <section className="services1-container">
                 <Services />
-            </section>
+            </section> */}
 
 
             {/* description container */}
-            {/* Add Description container
-            Add image container
-            Add text container
-                Add background highlight to "FULL-SERVICE" matching background color of next section
-             */}
-            <section className="description-container">
+            {/* <section className="description-container">
                 <Description />
-            </section>
+            </section> */}
 
-            {/* Add Our Work Container
-            Add text container
-            Add graphic container
-        Add graphic */}
-            {/* <div className="work-container">
-                <OurWork />
-            </div> */}
-
-            <section className="ourwork-container">
+            {/* Add Our Work Container */}
+            {/* <section className="ourwork-container">
             <OurWork />
-            </section>
+            </section> */}
 
            
             {/* Remove this section below here because it will be replaced with footer module */}
-            <div className="contact-form-container">
+            {/* <div className="contact-form-container">
                 <ContactForm />
-            </div>
-            {/* <div className="footer-container">
-                <Footer />
             </div> */}
         </div >
     )
