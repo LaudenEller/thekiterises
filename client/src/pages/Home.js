@@ -51,9 +51,9 @@ const Home = () => {
 
 
             {/* description container */}
-            {/* <section className="description-container">
+            <section className="description-container">
                 <Description />
-            </section> */}
+            </section>
 
             {/* Add Our Work Container */}
             {/* <section className="ourwork-container">

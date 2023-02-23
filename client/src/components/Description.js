@@ -3,6 +3,9 @@ import "./Description.css"
 const Description = () => {
 
     return (
+
+        // return a div with images and text
+        
         <section id="comp-l7kn4r24" className="_3uJnK comp-l7kn4r24-container undefined" data-testid="section-container">
             <div id="bgLayers_comp-l7kn4r24" data-hook="bgLayers" className="_3wnIc">
                 <div data-testid="colorUnderlay" className="_3KzuS _3SQN-"></div>
