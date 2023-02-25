@@ -8,7 +8,7 @@ a{cursor:pointer;text-decoration:none;}
 ._3SQN-,._3wnIc{position:absolute;top:0;width:100%;height:100%;}
 ._3wnIc{left:0;overflow:hidden;-webkit-mask-image:var(--mask-image,none);mask-image:var(--mask-image,none);-webkit-mask-position:var(--mask-position,0);mask-position:var(--mask-position,0);-webkit-mask-size:var(--mask-size,100%);mask-size:var(--mask-size,100%);-webkit-mask-repeat:var(--mask-repeat,no-repeat);mask-repeat:var(--mask-repeat,no-repeat);pointer-events:var(--fill-layer-background-media-pointer-events);}
 ._2GUhU{height:100%;}
-._3KzuS{background-color:var(--bg-overlay-color);background-image:var(--bg-gradient);}
+/* ._3KzuS{background-color:var(--bg-overlay-color);background-image:var(--bg-gradient);} */
 ._1PtAB,._6ICOI{opacity:var(--fill-layer-video-opacity);}
 ._6ICOI{position:relative;width:100%;height:100%;}
 ._3hRfg{-webkit-clip-path:var(--fill-layer-clip);clip-path:var(--fill-layer-clip);}

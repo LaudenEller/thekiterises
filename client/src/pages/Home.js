@@ -34,20 +34,20 @@ const Home = () => {
         // parent container for this page's content that's sandwiched between the navbar and the footer 
         <div className="home">
             {/* fetched data that will be removed from this page */}
-            {/* <div className="workSamples">
+            <div className="workSamples">
                 {worksamples && worksamples.map((worksample) => (
                     <p key={worksample._id}>{worksample.clientName}</p>
                 ))}
-            </div> */}
+            </div>
 
-            <section className="welcomeBanner">
+            <section className="welcomeBannerSection">
                 <WelcomeBanner />
             </section>
 
             {/* Services container */}
-            {/* <section className="services1-container">
+            <section className="services1-container">
                 <Services />
-            </section> */}
+            </section>
 
 
             {/* description container */}
@@ -56,15 +56,15 @@ const Home = () => {
             </section>
 
             {/* Add Our Work Container */}
-            {/* <section className="ourwork-container">
+            <section className="ourwork-container">
             <OurWork />
-            </section> */}
+            </section>
 
            
             {/* Remove this section below here because it will be replaced with footer module */}
-            {/* <div className="contact-form-container">
+            <div className="contact-form-container">
                 <ContactForm />
-            </div> */}
+            </div>
         </div >
     )
 }

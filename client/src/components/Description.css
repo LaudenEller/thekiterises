@@ -5,7 +5,7 @@ div,h2,img,section,span{margin:0;padding:0;border:0;outline:0;vertical-align:bas
 ._3SQN-,._3wnIc{position:absolute;top:0;width:100%;height:100%;}
 ._3wnIc{left:0;overflow:hidden;-webkit-mask-image:var(--mask-image,none);mask-image:var(--mask-image,none);-webkit-mask-position:var(--mask-position,0);mask-position:var(--mask-position,0);-webkit-mask-size:var(--mask-size,100%);mask-size:var(--mask-size,100%);-webkit-mask-repeat:var(--mask-repeat,no-repeat);mask-repeat:var(--mask-repeat,no-repeat);pointer-events:var(--fill-layer-background-media-pointer-events);}
 ._2GUhU{height:100%;}
-._3KzuS{background-color:var(--bg-overlay-color);background-image:var(--bg-gradient);}
+/* ._3KzuS{background-color:var(--bg-overlay-color);background-image:var(--bg-gradient);} */
 /*! CSS Used from: Embedded */
 ._1Q9if h2{line-height:normal;letter-spacing:normal;}
 ._1Q9if{word-wrap:break-word;overflow-wrap:break-word;text-align:start;pointer-events:none;min-height:var(--min-height);min-width:var(--min-width);}
