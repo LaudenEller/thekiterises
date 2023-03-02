@@ -7,14 +7,14 @@ import "./NavBar.css"
 export const NavBar = props => {
 
   return (
-<header id="comp-ka50ygrl_r_comp-k6jwdd6" className="comp-ka50ygrl-container">
+
     
-    <section id="comp-ka50ygrl_r_comp-k6gjwdd6" className="_3uJnK comp-ka50ygrl_r_comp-k6gjwdd6-container undefined">
-    <div id="comp-ka50ygrl_r_comp-k9s87bm3" className="_1Q9if _3bcaz" data-testid="richTextElement">
-        {/* <p class="font_8"><a href="https://www.thekiterises.com" target="_self">Creative Agency</a></p> */}
-        <img src="/LogoTKR.png" alt="TKR logo"></img>
+    <section id="nav_bar" className="bgColors nav_bar-content">
+    <div id="nav_bar-text" className="textRules" data-testid="richTextElement">
+        <p class="font_8"><a href="https://www.thekiterises.com" target="_self">Creative Agency</a></p>
+        {/* <img src="/LogoTKR.png" alt="TKR logo"></img> */}
         </div>
-        <div id="comp-ka50ygrl_r_comp-l1ba4x9l">
+        <div id="nav_bar-toggle">
             <DrawerToggleButton click={props.drawerClickHandler} />
           {/* <a data-testid="linkElement" data-popupid="hb7v8" target="_self" role="button" className="_2wYm8" tabIndex="0">
             <div data-testid="svgRoot-comp-ka50ygrl_r_comp-l1ba4x9l" className="_3bLYT _2OIRR N1N2o">
@@ -29,7 +29,7 @@ export const NavBar = props => {
           </div></a> */}
 </div>
     </section>
-          </header>
+          
 
 /* <nav className="nav">
 <img src="/LogoTKR.png" alt="TKR logo"></img>

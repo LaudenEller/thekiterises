@@ -5,8 +5,8 @@ a{cursor:pointer;text-decoration:none;}
 :focus{outline:none;}
 /*! CSS Used from: Embedded */
 ._1-6YJ{width:100%;height:100%;display:block;}
-._3SQN-,._3wnIc{position:absolute;top:0;width:100%;height:100%;}
-._3wnIc{left:0;overflow:hidden;-webkit-mask-image:var(--mask-image,none);mask-image:var(--mask-image,none);-webkit-mask-position:var(--mask-position,0);mask-position:var(--mask-position,0);-webkit-mask-size:var(--mask-size,100%);mask-size:var(--mask-size,100%);-webkit-mask-repeat:var(--mask-repeat,no-repeat);mask-repeat:var(--mask-repeat,no-repeat);pointer-events:var(--fill-layer-background-media-pointer-events);}
+._3SQN-,.bgLayers{position:absolute;top:0;width:100%;height:100%;}
+.bgLayers{left:0;overflow:hidden;-webkit-mask-image:var(--mask-image,none);mask-image:var(--mask-image,none);-webkit-mask-position:var(--mask-position,0);mask-position:var(--mask-position,0);-webkit-mask-size:var(--mask-size,100%);mask-size:var(--mask-size,100%);-webkit-mask-repeat:var(--mask-repeat,no-repeat);mask-repeat:var(--mask-repeat,no-repeat);pointer-events:var(--fill-layer-background-media-pointer-events);}
 ._2GUhU{height:100%;}
 /* ._3KzuS{background-color:var(--bg-overlay-color);background-image:var(--bg-gradient);} */
 ._1PtAB,._6ICOI{opacity:var(--fill-layer-video-opacity);}
@@ -21,11 +21,11 @@ a{cursor:pointer;text-decoration:none;}
 ._3bLYT,._3bLYT svg{position:absolute;top:0;right:0;bottom:0;left:0;}
 ._3bLYT svg{width:var(--svg-calculated-width,100%);height:var(--svg-calculated-height,100%);padding:var(--svg-calculated-padding,0);margin:auto;}
 ._2OIRR *{vector-effect:non-scaling-stroke;}
-._1Q9if p{line-height:normal;letter-spacing:normal;}
-._1Q9if{word-wrap:break-word;overflow-wrap:break-word;text-align:start;pointer-events:none;min-height:var(--min-height);min-width:var(--min-width);}
-._1Q9if>*{pointer-events:auto;}
-._1Q9if p{margin:0;}
-._1Q9if a{color:inherit;}
+.textRules p{line-height:normal;letter-spacing:normal;}
+.textRules{word-wrap:break-word;overflow-wrap:break-word;text-align:start;pointer-events:none;min-height:var(--min-height);min-width:var(--min-width);}
+.textRules>*{pointer-events:auto;}
+.textRules p{margin:0;}
+.textRules a{color:inherit;}
 /*! CSS Used from: Embedded */
 ._3WZb8 ._2upBq ._2lHsw{display:var(--item-display);width:var(--item-size);height:var(--item-size);margin:var(--item-margin);}
 ._3WZb8 ._2upBq ._2lHsw:last-child{margin:0;}

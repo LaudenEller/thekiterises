@@ -19,20 +19,11 @@ code {
 
 /* starting new section here */
 
-.xJqji {
-  display: contents;
-}
-
-#PAGE_SECTIONSnvemy {
-  --pinned-layer-in-container: 49;
-  --above-all-in-container: 49;
-}
-
-#nvemy {
+/* #nvemy {
   --bg: 255,255,255;
   --alpha-bg: 1;
   --shc-mutated-brightness: 128,128,128;
-}
+} */
 
 #comp-ka50ygty1 {
   height: auto;
@@ -114,7 +105,7 @@ code {
   grid-area: 1/1/2/2;
 }
 
-.textContainer, ._2Hij5 {
+.textRules {
   word-wrap: break-word;
   overflow-wrap: break-word;
   text-align: start;
@@ -123,7 +114,7 @@ code {
   min-width: var(--min-width);
 }
 
-.textContainer>*, ._2Hij5>* {
+.textRules>* {
   pointer-events: auto;
 }
 
@@ -139,11 +130,11 @@ code {
   min-height: 0vw;
 }
 
-.textContainer blockquote, .textContainer h1, .textContainer h2, .textContainer h3, .textContainer h4, .textContainer h5, .textContainer h6, .textContainer p, ._2Hij5 blockquote, ._2Hij5 h1, ._2Hij5 h2, ._2Hij5 h3, ._2Hij5 h4, ._2Hij5 h5, ._2Hij5 h6, ._2Hij5 p {
+.textRules blockquote, .textRules h1, .textRules h2, .textRules h3, .textRules h4, .textRules h5, .textRules h6, .textRules p, blockquote {
   margin: 0;
 }
 
-.textContainer blockquote, .textContainer h1, .textContainer h2, .textContainer h3, .textContainer h4, .textContainer h5, .textContainer h6, .textContainer p {
+.textRules blockquote, .textRules h1, .textRules h2, .textRules h3, .textRules h4, .textRules h5, .textRules h6, .textRules p {
   line-height: normal;
   letter-spacing: normal;
 }
@@ -278,7 +269,7 @@ a {
   grid-template-columns: 1fr;
 }
 
-.bgLayer {
+.bgLayers {
   left: 0;
   overflow: hidden;
   -webkit-mask-image: var(--mask-image,none);
@@ -292,7 +283,7 @@ a {
   pointer-events: var(--fill-layer-background-media-pointer-events);
 }
 
-.colorUnderlay, .bgLayer {
+.colorUnderlay, .bgLayers {
   position: absolute;
   top: 0;
   width: 100%;
@@ -305,9 +296,9 @@ a {
   background-image: var(--bg-gradient);
 }
 
-/* .bgMedia {
+.bgMedia {
   height: 100%;
-} */
+}
 
 #comp-l2lk0o9u {
   --brw: 0px;
@@ -509,7 +500,7 @@ ol, ul {
   letter-spacing: 0em;
 }
 
-.textContainer a, ._2Hij5 a {
+.textRules, a {
   color: inherit;
 }
 
@@ -537,13 +528,13 @@ ol, ul {
   text-align: center;
 }
 
-#nvemy .nvemy-container {
+/* #nvemy .nvemy-container {
   position: relative;
   box-sizing: border-box;
   display: grid;
   grid-template-rows: auto auto auto auto auto auto auto;
   grid-template-columns: minmax(0px,1fr);
-}
+} */
 
 #comp-ka50ygrl {
   --bg: var(--color_11);
@@ -564,36 +555,36 @@ ol, ul {
   grid-area: 1/1/2/2;
 }
 
-.comp-ka50ygrl-container {
+/* nav_header {
   box-sizing: border-box;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr;
-}
+} */
 
-#comp-ka50ygrl_r_comp-k6gjwdd6 {
+#nav_bar {
   --bg: var(--color_11);
   --alpha-bg: 1;
 }
 
-#comp-ka50ygrl_r_comp-k6gjwdd6 {
+#nav_bar {
   height: auto;
   max-height: 99999px;
-  min-height: 100px;
+  /* min-height: 100px; */
   align-self: stretch;
   justify-self: stretch;
   position: relative;
   grid-area: 1/1/2/2;
 }
 
-.comp-ka50ygrl_r_comp-k6gjwdd6-container {
+.nav_bar-content {
   box-sizing: border-box;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr;
 }
 
-#comp-ka50ygrl_r_comp-k9s87bm3 {
+#nav_bar-text {
   --fontSize: 11px;
   --lineHeight: 1.6em;
   --letterSpacing: 0em;
@@ -604,7 +595,7 @@ ol, ul {
   --fontWeight: bold;
 }
 
-#comp-ka50ygrl_r_comp-k9s87bm3 {
+#nav_bar-text {
   height: auto;
   width: 371px;
   align-self: start;
@@ -617,7 +608,7 @@ ol, ul {
   grid-area: 1/1/2/2;
 }
 
-#comp-ka50ygrl_r_comp-k9s87bm3 p, #comp-ka50ygrl_r_comp-k9s87bm3 h1, #comp-ka50ygrl_r_comp-k9s87bm3 h2, #comp-ka50ygrl_r_comp-k9s87bm3 h3, #comp-ka50ygrl_r_comp-k9s87bm3 h4, #comp-ka50ygrl_r_comp-k9s87bm3 h5, #comp-ka50ygrl_r_comp-k9s87bm3 h6, #comp-ka50ygrl_r_comp-k9s87bm3 ul, #comp-ka50ygrl_r_comp-k9s87bm3 ol {
+#nav_bar-text p, #nav_bar-text h1, #nav_bar-text h2, #nav_bar-text h3, #nav_bar-text h4, #nav_bar-text h5, #nav_bar-text h6, #nav_bar-text ul, #nav_bar-text ol {
   color: #262626;
   font-family: lulo-clean-w01-one-bold,lulo-clean-w05-one-bold,sans-serif;
   font-weight: bold;
@@ -633,11 +624,11 @@ ol, ul {
   letter-spacing: 0em;
 }
 
-#comp-ka50ygrl_r_comp-l1ba4x9l {
+#nav_bar-toggle {
   --opacity: 1;
 }
 
-#comp-ka50ygrl_r_comp-l1ba4x9l {
+#nav_bar-toggle {
   height: 63.41796875px;
   width: 63.41796875px;
   align-self: center;

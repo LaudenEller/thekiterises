@@ -4,7 +4,7 @@ const Footer = () => {
 
     return (
         <section id="comp-l2lk0o9n" className="_3uJnK comp-l2lk0o9n-container undefined" data-testid="section-container">
-            <div id="bgLayers_comp-l2lk0o9n" data-hook="bgLayers" className="_3wnIc">
+            <div id="bgLayers_comp-l2lk0o9n" data-hook="bgLayers" className="bgLayers">
                 <div data-testid="colorUnderlay" className="_3KzuS _3SQN-">
                 </div>
                 <div id="bgMedia_comp-l2lk0o9n" className="_2GUhU"></div></div>
@@ -23,15 +23,15 @@ const Footer = () => {
                                     <img alt="Instagram" style={{width: "30px", height: "30px", objectFit: "cover"}} src="https://static.wixstatic.com/media/81af6121f84c41a5b4391d7d37fce12a.png/v1/fill/w_60,h_60,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/81af6121f84c41a5b4391d7d37fce12a.png" />
                                     </wix-image></a></li></ul></div>
                 <div id="comp-l2lk0oa9" className="_3Fes4 comp-l2lk0oa9-container">
-                    <div className="_2l-6d"></div><div id="comp-l2lk0oae" className="_1Q9if _3bcaz" data-testid="richTextElement">
+                    <div className="_2l-6d"></div><div id="comp-l2lk0oae" className="textRules _3bcaz" data-testid="richTextElement">
                         <p className="font_7"><span><span style={{textDecoration: "underline"}}>
                             <a href="https://www.thekiterises.com/privicypolicy" target="_self">Privacy policy</a></span>
                         </span></p></div>
-                    <div id="comp-l2lk0oam" className="_1Q9if _3bcaz" data-testid="richTextElement">
+                    <div id="comp-l2lk0oam" className="textRules _3bcaz" data-testid="richTextElement">
                         <p className="font_8">Copyright © The Kite Rises 2022&nbsp;| All Rights Reserved.</p></div></div></div>
             <div id="comp-krcn2c18" className="_1EyUC comp-krcn2c18-container" data-audio="off" data-has-play="" data-no-audio="" data-playing="" data-animate-poster="none" data-has-alpha="true" data-can-play="" data-show-canvas="">
                 <div className="_1zNyT _3SQDg" tabindex="0" role="button" aria-label=" Play video" aria-pressed="true">
-                    <div id="bgLayers_comp-krcn2c18" data-hook="bgLayers" className="_3wnIc IfnBz">
+                    <div id="bgLayers_comp-krcn2c18" data-hook="bgLayers" className="bgLayers IfnBz">
                         <div id="bgMedia_comp-krcn2c18" className="_2GUhU">
                             <wix-video id="videoContainer_comp-krcn2c18" data-video-info="{&quot;fittingType&quot;:&quot;fit&quot;,&quot;alignType&quot;:&quot;center&quot;,&quot;hasBgScrollEffect&quot;:&quot;&quot;,&quot;bgEffectName&quot;:&quot;&quot;,&quot;videoId&quot;:&quot;11062b_ebf93c1d07fd41cf8f85940612418dd8&quot;,&quot;videoWidth&quot;:396,&quot;videoHeight&quot;:1080,&quot;qualities&quot;:[{&quot;quality&quot;:&quot;480p&quot;,&quot;size&quot;:84480,&quot;url&quot;:&quot;video/11062b_ebf93c1d07fd41cf8f85940612418dd8/480p/mp4/file.mp4&quot;},{&quot;quality&quot;:&quot;720p&quot;,&quot;size&quot;:190080,&quot;url&quot;:&quot;video/11062b_ebf93c1d07fd41cf8f85940612418dd8/720p/mp4/file.mp4&quot;},{&quot;quality&quot;:&quot;1080p&quot;,&quot;size&quot;:427680,&quot;url&quot;:&quot;video/11062b_ebf93c1d07fd41cf8f85940612418dd8/1080p/mp4/file.mp4&quot;}],&quot;isVideoDataExists&quot;:&quot;1&quot;,&quot;videoFormat&quot;:&quot;mp4&quot;,&quot;playbackRate&quot;:1,&quot;autoPlay&quot;:true,&quot;containerId&quot;:&quot;comp-krcn2c18&quot;,&quot;animatePoster&quot;:&quot;none&quot;}" className="_3hRfg bgVideo _1PtAB">
                                 <video id="comp-krcn2c18_video" className="_3vVMz" role="presentation" crossorigin="anonymous" playsinline="" preload="auto" muted="" loop="" tabindex="-1" src="https://video.wixstatic.com/video/11062b_ebf93c1d07fd41cf8f85940612418dd8/480p/mp4/file.mp4"></video>

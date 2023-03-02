@@ -1,4 +1,4 @@
-/* #welcomeBanner img {
+/* .welcomeBannerContent img {
     position: absolute;
     vertical-align: baseline;
     justify-self: center;
@@ -12,19 +12,8 @@
 div,iframe,img,section{margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent;}
 :focus{outline:none;}
 /*! CSS Used from: Embedded */
-._3SQN-,._3wnIc{position:absolute;top:0;width:100%;height:100%;}
-._3wnIc{left:0;overflow:hidden;-webkit-mask-image:var(--mask-image,none);mask-image:var(--mask-image,none);-webkit-mask-position:var(--mask-position,0);mask-position:var(--mask-position,0);-webkit-mask-size:var(--mask-size,100%);mask-size:var(--mask-size,100%);-webkit-mask-repeat:var(--mask-repeat,no-repeat);mask-repeat:var(--mask-repeat,no-repeat);pointer-events:var(--fill-layer-background-media-pointer-events);}
-._2GUhU{height:100%;}
-/* ._3KzuS{background-color:var(--bg-overlay-color);background-image:var(--bg-gradient);max-height: 400px;} */
-/*! CSS Used from: Embedded */
 .welcomeBannerAnimationContainer{width:100%;height:100%;}
 .welcomeBannerAnimation{position:absolute;}
-/*! CSS Used from: Embedded */
-/* ._1x22G{overflow:hidden;background-color:rgba(var(--backgroundColor,var(--color_8)),var(--alpha-backgroundColor,1));border-color:rgba(var(--borderColor,var(--color_8)),var(--alpha-borderColor,1));border-width:var(--borderWidth,0);border-style:solid;border-radius:var(--cornerRadius,0);box-shadow:var(--boxShadow,none);}
-._1x22G wix-image{position:absolute;top:0;bottom:0;left:0;right:0;opacity:var(--mediaOpacity,1);}
-._1x22G img,._1x22G wix-image{width:100%;height:100%;} */
-/*! CSS Used from: Embedded */
-/* ._3uJnK{background-color:rgba(var(--bg,var(--color_11)),var(--alpha-bg,1));} */
 /*! CSS Used from: Embedded */
 #welcomeBannerContent{min-height:475.2421875px;height:auto;min-width:0px;width:103.13297193877551%;align-self:start;justify-self:end;position:relative;margin-left:0px;margin-right:-5.09375px;margin-top:-8.046875px;margin-bottom:0px;grid-area:1/1/2/2;}
 #logoContainer{min-width:0px;width:11.043325155160927%;min-height:0px;align-self:start;justify-self:center;position:relative;margin-left:0px;margin-right:0px;margin-top:14.0546875px;margin-bottom:0px;grid-area:1/1/2/2;}
@@ -33,7 +22,7 @@ div,iframe,img,section{margin:0;padding:0;border:0;outline:0;vertical-align:base
 @media (min-width: 320px) and (max-width: 1680px){
 #welcomeBannerContent{min-height:0px;width:auto;align-self:stretch;justify-self:stretch;margin-right:0px;margin-top:0px;}
 #logoContainer{margin-right:30px;margin-top:24.703125px;margin-bottom:-26.046875px;}
-/* #welcomeBanner{min-height:500px;} */
+#welcomeBanner{min-height:500px;}
 }
 @media (min-width: 320px) and (max-width: 750px){
 #welcomeBannerContent{width:auto;min-height:0px;align-self:stretch;justify-self:stretch;margin-right:0px;margin-top:0px;}
