@@ -39,7 +39,12 @@ function App() {
 
     // Q: this is a bad class name, isn't this where the first overriding css rules will begin,
           // above the HTML elements that are actually rendered to the DOM?
-    <div className="App">
+    <div id="masterPage" className="masterPage">
+      <div id="site_pages">
+        <div id="site_pages_transition_group" className='transition_group'>
+          
+        </div>
+      </div>
       <BrowserRouter>
         <NavBar drawerClickHandler={DrawerTogglerHandler} />
         <SideDrawer show={sideDrawerOpen} setSideDrawerOpen={setSideDrawerOpen} sideDrawerOpen={sideDrawerOpen} />
