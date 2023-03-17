@@ -2,7 +2,8 @@
 // the dropped down version where the background of whatever page you are on is blurred out and the new navbar appears 
 // with all the links and the window animation
 
-// This module will return the navbar, the desired page through the ApplicationViews module, and the footer
+// This component will export a function that accepts the current users account credentials as an argument 
+    // and returns the background layers, navbar, pages div that displays the appropriate page and the footer
 
 import { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
@@ -35,6 +36,9 @@ function App() {
 
   return (
     // <>
+
+    // Q: this is a bad class name, isn't this where the first overriding css rules will begin,
+          // above the HTML elements that are actually rendered to the DOM?
     <div className="App">
       <BrowserRouter>
         <NavBar drawerClickHandler={DrawerTogglerHandler} />
