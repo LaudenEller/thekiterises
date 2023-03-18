@@ -1,60 +1,40 @@
-:root {
-    --color_0: 255,255,255;
-    --color_27: 179,130,230;
-    --color_1: 255,255,255;
-    --color_2: 0,0,0;
-    --color_3: 237,28,36;
-    --color_4: 0,136,203;
-    --color_5: 255,203,5;
-    --color_6: 114,114,114;
-    --color_7: 176,176,176;
-    --color_8: 255,255,255;
-    --color_28: 122,28,217;
-    --color_9: 114,114,114;
-    --color_10: 176,176,176;
-    --color_11: 255,255,255;
-    --color_12: 243,243,243;
-    --color_13: 223,223,223;
-    --color_14: 62,62,62;
-    --color_15: 38,38,38;
-    --color_16: 205,241,228;
-    --color_17: 160,226,202;
-    --color_18: 120,170,151;
-    --color_29: 81,19,145;
-    --color_19: 80,113,101;
-    --color_20: 40,57,51;
-    --color_21: 169,182,247;
-    --color_22: 126,145,238;
-    --color_23: 14,50,230;
-    --color_24: 9,33,153;
-    --color_25: 5,17,77;
-    --color_30: 41,9,72;
-    --color_31: 160,226,202;
-    --color_32: 110,197,165;
-    --color_33: 20,168,114;
-    --color_34: 13,112,76;
-    --color_35: 7,56,38;
-    --font_0: normal normal normal 250px/1.4em barlow-medium,barlow,sans-serif;
-    --font_1: normal normal normal 16px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
-    --font_2: normal normal normal 85px/1.4em barlow-medium,barlow,sans-serif;
-    --font_3: normal normal normal 88px/1.4em barlow-extralight,barlow,sans-serif;
-    --font_4: normal normal normal 75px/1.4em barlow-extralight,barlow,sans-serif;
-    --font_5: normal normal bold 24px/1.4em poppins-extralight,poppins,sans-serif;
-    --font_6: normal normal bold 14px/1.4em poppins-extralight,poppins,sans-serif;
-    --font_7: normal normal normal 22px/1.4em barlow-medium,barlow,sans-serif;
-    --font_8: normal normal normal 16px/1.4em barlow-extralight,barlow,sans-serif;
-    --font_9: normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif;
-    --font_10: normal normal normal 12px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
-    --wix-ads-height: 0px;
-    --wix-ads-top-height: 0px;
-    --site-width: 980px;
-    --above-all-z-index: 100000;
-    --portals-z-index: 100001;
-    --minViewportSize: 320;
-    --color_26: 207,172,242;
-    --maxViewportSize: 1920;
-}
+#homePage {
+    --bg: 255,255,255;
+    --alpha-bg: 1;
+    --shc-mutated-brightness: 128,128,128;
+    height: auto;
+    top: calc(var(--top) + var(--sticky-top) + var(--wix-ads-top-height) * var(--is-sticky));
+    position: relative;
+    --is-sticky: 0;
+    --sticky-top: 0px;
+    --top: 0px;
+  }
+  
+  #homePage:not(.homePage_container) {
+    display: var(--l_display,var(--container-display));
+    grid-template-rows: 1fr;
+    grid-template-columns: minmax(0, 1fr);
+    --container-display: grid;
+  }
+  
+  #homePage .homePage_container {
+    position: relative;
+    box-sizing: border-box;
+    display: var(--l_display,var(--container-display));
+    grid-template-rows: auto auto auto auto auto auto auto;
+    grid-template-columns: minmax(0px,1fr);
+    --container-display: grid;
+  }
 
+  .page_bg .page_bg_homePage {
+    background-color: rgba(var(--bg,var(--color_11)),var(--alpha-bg,1));
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
 
 @media (min-width: 320px) and (max-width: 750px) {
 #comp-ks9gm86g {

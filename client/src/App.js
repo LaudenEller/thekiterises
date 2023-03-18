@@ -3,7 +3,7 @@
 // with all the links and the window animation
 
 // This component will export a function that accepts the current users account credentials as an argument 
-    // and returns the background layers, navbar, pages div that displays the appropriate page and the footer
+// and returns the background layers, navbar, pages div that displays the appropriate page and the footer
 
 import { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
@@ -38,27 +38,28 @@ function App() {
     // <>
 
     // Q: this is a bad class name, isn't this where the first overriding css rules will begin,
-          // above the HTML elements that are actually rendered to the DOM?
-    <div id="masterPage" className="masterPage">
-      <div id="site_pages">
-        <div id="site_pages_transition_group" className='transition_group'>
-          
-        </div>
-      </div>
-      <BrowserRouter>
-        <NavBar drawerClickHandler={DrawerTogglerHandler} />
+    // above the HTML elements that are actually rendered to the DOM?
+
+    //  this is the layers of app structure which allow app responsiveness on any page within the app
+    // the nav bar, footer and page components will have to move inside these divs
+    <BrowserRouter>
+      <div id="masterPage" className="masterPage">
+        <div id="site_pages">
+          <div id="site_pages_transition_group" className='transition_group'>
+          </div>
+          {/* <NavBar drawerClickHandler={DrawerTogglerHandler} />
         <SideDrawer show={sideDrawerOpen} setSideDrawerOpen={setSideDrawerOpen} sideDrawerOpen={sideDrawerOpen} />
-        {backdrop}
-        <div className='pages'>
+        {backdrop} */}
           <Routes>
             <Route
               path="/"
               element={<Home />} />
           </Routes>
         </div>
-        <Footer />
-      </BrowserRouter>
-    </div>
+      </div>
+    </BrowserRouter>
+
+
     // </>
   );
 }

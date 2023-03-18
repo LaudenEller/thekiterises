@@ -21,3 +21,64 @@
     margin-top: 10px;
     margin-left: 150px;
 } */
+
+#navBar_header {
+    --bg: var(--color_11);
+    --alpha-bg: 0;
+    --pinned-layer-in-container: 49;
+    --above-all-in-container: 49;
+    height: auto;
+    width: auto;
+    top: calc(var(--top) + var(--sticky-top) + var(--wix-ads-top-height) * var(--is-sticky));
+    align-self: stretch;
+    justify-self: stretch;
+    grid-area: 1/1/2/2;
+    position: relative;
+    --is-sticky: 0;
+    --sticky-top: 0px;
+    --top: 0px;
+}
+
+.navBar_header_container {
+    box-sizing: border-box;
+    display: var(--l_display,var(--container-display));
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    --container-display: grid;
+}
+
+#navBar_title {
+    --fontSize: 11px;
+    --lineHeight: 1.6em;
+    --letterSpacing: 0em;
+    --fontFamily: lulo-clean-w01-one-bold,lulo-clean-w05-one-bold,sans-serif;
+    --color: var(--color_15);
+    --alpha-color: 1;
+    --textAlign: center;
+    --fontWeight: bold;
+    height: auto;
+    width: 371px;
+    --l_display: unset;
+    top: calc(var(--top) + var(--sticky-top) + var(--wix-ads-top-height) * var(--is-sticky));
+    display: var(--l_display,var(--display));
+    align-self: start;
+    justify-self: center;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 24.90234375px;
+    margin-bottom: 0px;
+    grid-area: 1/1/2/2;
+    position: relative;
+    --is-sticky: 0;
+    --sticky-top: 0px;
+    --top: 0px;
+}
+
+.titleText, .textBox {
+    word-wrap: break-word;
+    min-height: var(--min-height);
+    min-width: var(--min-width);
+    overflow-wrap: break-word;
+    pointer-events: none;
+    text-align: start;
+}

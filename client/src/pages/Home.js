@@ -7,6 +7,9 @@ import { useEffect, useState } from "react"
 import ContactForm from "../components/ContactForm"
 import Description from "../components/Description"
 import Footer from "../components/Footer"
+import { Backdrop } from "../components/nav/backdrop/Backdrop"
+import { NavBar } from "../components/nav/NavBar1"
+import SideDrawer from "../components/nav/SideDrawer"
 import OurWork from "../components/OurWork"
 import Services from "../components/Services"
 import WelcomeBanner from "../components/WelcomeBanner"
@@ -30,42 +33,57 @@ const Home = () => {
         fetchIt()
     }, [])
 
+    const [sideDrawerOpen, setSideDrawerOpen] = useState(false)
+    const DrawerTogglerHandler = () => {
+        setSideDrawerOpen(!sideDrawerOpen)
+    }
+
+    const BackdropClickHandler = () => {
+        setSideDrawerOpen(false)
+    }
+
+    let backdrop = null
+
+    if (sideDrawerOpen === true) {
+        backdrop = <Backdrop click={BackdropClickHandler} />
+    }
+
     return (
-        // parent container for this page's content that's sandwiched between the navbar and the footer 
-        <div className="home">
-            {/* fetched data that will be removed from this page */}
-            <div className="workSamples">
+
+        <div id="homePage" className="homePage page_bg">
+            <div className='page_bg_homePage'></div>
+            <div>
+                <div className='homePage_container'>
+                    <header id="navbar_header" className='navbar_header navbar_header_container'>
+                        {/* insert nav, footer and page content components */}
+                        <NavBar drawerClickHandler={DrawerTogglerHandler} />
+                        <SideDrawer show={sideDrawerOpen} setSideDrawerOpen={setSideDrawerOpen} sideDrawerOpen={sideDrawerOpen} />
+                        {backdrop}
+                    </header>
+                    <main>
+                        {/* fetched data that will be removed from this page */}
+                        {/* <div className="workSamples">
                 {worksamples && worksamples.map((worksample) => (
                     <p key={worksample._id}>{worksample.clientName}</p>
                 ))}
+            </div> */}
+                        <WelcomeBanner />
+                        {/* Services container */}
+                        <Services />
+                        {/* description container */}
+                        <Description />
+
+                        {/* Add Our Work Container */}
+                        <OurWork />
+                    </main>
+                    <footer>
+                    {/* Remove this section below here because it will be replaced with footer module */}
+                    <ContactForm />
+                        <Footer />
+                    </footer>
+                </div>
             </div>
-
-            <section className="welcomeBannerSection">
-                <WelcomeBanner />
-            </section>
-
-            {/* Services container */}
-            <section className="services1-container">
-                <Services />
-            </section>
-
-
-            {/* description container */}
-            <section className="description-container">
-                <Description />
-            </section>
-
-            {/* Add Our Work Container */}
-            <section className="ourwork-container">
-            <OurWork />
-            </section>
-
-           
-            {/* Remove this section below here because it will be replaced with footer module */}
-            <div className="contact-form-container">
-                <ContactForm />
-            </div>
-        </div >
+        </div>
     )
 }
 
