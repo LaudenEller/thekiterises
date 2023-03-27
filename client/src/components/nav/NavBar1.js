@@ -3,6 +3,7 @@
 import React from "react"
 import { DrawerToggleButton } from "./DrawerToggler"
 import "./NavBar.css"
+import "./DrawerToggler.css"
 
 export const NavBar = props => {
 
@@ -20,12 +21,12 @@ export const NavBar = props => {
         <div></div>
         <div></div>
     </section> */}
-    <section id="nav_bar" className = "bgColors nav_bar-content" tabIndex = {- 1}>
-        <div id="nav_bar-text" className="textRules" data-testid="richTextElement">
+    <section id="navbar" className = "bgColors navbar-content" tabIndex = {- 1}>
+        <div id="navbar-text" className="textRules" data-testid="richTextElement">
           <p class="font_8"><a href="https://www.thekiterises.com" target="_self">Creative Agency</a></p>
           {/* <img src="/LogoTKR.png" alt="TKR logo"></img> */}
         </div>
-        <div id="nav_bar-toggle">
+        <div id="navbar-toggle">
           <DrawerToggleButton click={props.drawerClickHandler} />
           {/* <a data-testid="linkElement" data-popupid="hb7v8" target="_self" role="button" className="_2wYm8" tabIndex="0">
             <div data-testid="svgRoot-comp-ka50ygrl_r_comp-l1ba4x9l" className="_3bLYT _2OIRR N1N2o">

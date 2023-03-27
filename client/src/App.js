@@ -16,6 +16,7 @@ import './index.css';
 import './fonts/lulo-clean-w01-one-bold.ttf'
 import Home1 from './pages/Home1';
 import Footer from './components/Footer';
+import SiteContainer from './pages/SiteContainer';
 
 function App() {
   const [sideDrawerOpen, setSideDrawerOpen] = useState(false)
@@ -42,22 +43,22 @@ function App() {
 
     //  this is the layers of app structure which allow app responsiveness on any page within the app
     // the nav bar, footer and page components will have to move inside these divs
-    <BrowserRouter>
       <div id="masterPage" className="masterPage">
         <div id="site_pages">
           <div id="site_pages_transition_group" className='transition_group'>
-          </div>
-          {/* <NavBar drawerClickHandler={DrawerTogglerHandler} />
+        <BrowserRouter>
+            {/* <NavBar drawerClickHandler={DrawerTogglerHandler} />
         <SideDrawer show={sideDrawerOpen} setSideDrawerOpen={setSideDrawerOpen} sideDrawerOpen={sideDrawerOpen} />
         {backdrop} */}
-          <Routes>
-            <Route
-              path="/"
-              element={<Home />} />
-          </Routes>
+            <Routes>
+              <Route
+                path="/"
+                element={<Home />} />
+            </Routes>
+    </BrowserRouter>
+          </div>
         </div>
       </div>
-    </BrowserRouter>
 
 
     // </>

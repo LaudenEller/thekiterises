@@ -1,4 +1,4 @@
-#homePage {
+#home_page {
     --bg: 255,255,255;
     --alpha-bg: 1;
     --shc-mutated-brightness: 128,128,128;
@@ -10,14 +10,14 @@
     --top: 0px;
   }
   
-  #homePage:not(.homePage_container) {
+  #home_page:not(.home_page-container) {
     display: var(--l_display,var(--container-display));
     grid-template-rows: 1fr;
     grid-template-columns: minmax(0, 1fr);
     --container-display: grid;
   }
   
-  #homePage .homePage_container {
+  #home_page .home_page-container {
     position: relative;
     box-sizing: border-box;
     display: var(--l_display,var(--container-display));
@@ -26,7 +26,7 @@
     --container-display: grid;
   }
 
-  .page_bg .page_bg_homePage {
+  .page_bg .page_bg-home_page {
     background-color: rgba(var(--bg,var(--color_11)),var(--alpha-bg,1));
     bottom: 0;
     left: 0;
@@ -34,6 +34,20 @@
     position: absolute;
     right: 0;
     top: 0;
+}
+
+#page-sections-home {
+  --pinned-layer-in-container: 49;
+  --above-all-in-container: 49;
+  display: contents;
+}
+
+.display-contents {
+  display: contents !important;
+}
+
+.page-sections-home {
+
 }
 
 @media (min-width: 320px) and (max-width: 750px) {
