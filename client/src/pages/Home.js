@@ -52,7 +52,7 @@ const Home = () => {
 
     return (
 
-        <div id="home_page" className="home_page page_bg">
+        <div id="home_page" className={"home_page page_bg"}>
             <div className='page_bg-home_page'></div>
             <div>
                 <div className='home_page-container'>
@@ -62,7 +62,7 @@ const Home = () => {
                         <SideDrawer show={sideDrawerOpen} setSideDrawerOpen={setSideDrawerOpen} sideDrawerOpen={sideDrawerOpen} />
                         {backdrop}
                     </header>
-                    <main id="page-sections-home" className="display_contents">
+                    <main id="page_sections-home" className="display_contents">
                         {/* fetched data that will be removed from this page */}
                         {/* <div className="workSamples">
                 {worksamples && worksamples.map((worksample) => (

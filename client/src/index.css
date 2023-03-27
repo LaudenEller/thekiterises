@@ -56,35 +56,9 @@
   --maxViewportSize: 1920;
 }
 
-/* "Html" is the second highest level of scope */
-body, html {
-  height: 100%;
-}
-
-/* body is the third highest level of scope */
-body {
-  overflow-x: auto;
-  overflow-y: scroll;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    Arial,Helvetica, sans-serif;
-  font-size: 10px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-/* Site_container1 is the fourth highest level of scope */
-#site_container1 {
-  position: relative;
-}
-
-/* buttons that help the site to be responsive on any DOM */
-#scroll_to_bottom, #scroll_to_top {
-  height: 0;
-}
 
 /* Setting these rules for HTML elements allows them to align properly 
-    on any DOM and is a part of facilitating the site's responsiveness */
+on any DOM and is a part of facilitating the site's responsiveness */
 a, abbr, acronym, address, applet, b, big, blockquote, body, button, caption, 
 center, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, footer, 
 form, h1, h2, h3, h4, h5, h6, header, html, i, iframe, img, ins, kbd, label, 
@@ -98,39 +72,54 @@ strong, sub, sup, table, tbody, td, tfoot, th, thead, title, tr, tt, u, ul, var 
   vertical-align: baseline;
 }
 
-/* Scroll buttons */
-.scroll_button {
-  overflow: hidden;
-  padding: 0;
-  pointer-events: none;
-  white-space: nowrap;
+.bg_color{
+  background-color: rgba(var(--bg,var(--color_11)),var(--alpha-bg,1));
 }
 
-/* Skip to content button */
-.skip_btn {
-background: #fff;
-border-radius: 24px;
-border-color: #116dff;
-cursor: pointer;
-font-family: Helvetica,Arial,メイリオ,meiryo,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,sans-serif;
-font-size: 14px;
-height: 0;
-left: 50%;
-margin-left: -94px;
-opacity: 0;
-padding: 0 24px 0 24px;
-pointer-events: none;
-position: absolute;
-top: 60px;
-width: 0;
-z-index: 9999;
+.bg_media_color{
+  background-color: var(--bg-overlay-color);
+  background-image: var(--bg-gradient);
 }
 
-/* Stretches content to the very top and bottom of any view port */
-#site-root {
-  margin: 0 auto;
-  min-height: 100%;
+.bg_layers .bg_media {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.bg_media{
+  height: 100%;
+}
+
+.display_contents{
+  display: contents;
+}
+
+/* "Html" is the second highest level of scope */
+body, html {
+  height: 100%;
+}
+
+/* body is the third highest level of scope */
+body {
+  overflow-x: auto;
+  overflow-y: scroll;
+  margin: 0;
+  font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    Arial,Helvetica, sans-serif;
+  font-size: 10px;
+}
+/* Site_container1 is the fourth highest level of scope */
+.site_content_container {
   position: relative;
+}
+
+#site_content {
+  margin: 0 auto;
+    min-height: 100%;
+    position: relative;
 }
 
 #site_pages {
@@ -161,7 +150,7 @@ code {
 }
 
 /* starting new section here */
-
+/* 
 #nvemy {
   --bg: 255,255,255;
   --alpha-bg: 1;
@@ -610,13 +599,13 @@ ol, ul {
   flex-direction: column;
 }
 
-/* ._3Fes4 {
+._3Fes4 {
   --container-corvid-border-color: rgba(var(--brd,var(--color_15)),var(--alpha-brd,1));
   --container-corvid-border-size: var(--brw,1px);
   --container-corvid-background-color: rgba(var(--bg,var(--color_11)),var(--alpha-bg,1));
-} */
+} 
 
-/* ._2l-6d {
+._2l-6d {
   border: var(--container-corvid-border-width,var(--brw,1px)) solid var(--container-corvid-border-color,rgba(var(--brd,var(--color_15)),var(--alpha-brd,1)));
   background-color: var(--container-corvid-background-color,rgba(var(--bg,var(--color_11)),var(--alpha-bg,1)));
   border-radius: var(--rd,5px);
@@ -626,7 +615,7 @@ ol, ul {
   right: 0;
   bottom: 0;
   left: 0;
-} */
+}
 
 #comp-l2lk0oae {
   --textAlign: center;
@@ -716,12 +705,12 @@ ol, ul {
   grid-area: 1/1/2/2;
 }
 
-/* nav_header {
+nav_header {
   box-sizing: border-box;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr;
-} */
+}
 
 #nav_bar {
   --bg: var(--color_11);
@@ -731,7 +720,7 @@ ol, ul {
 #nav_bar {
   height: auto;
   max-height: 99999px;
-  /* min-height: 100px; */
+  min-height: 100px; 
   align-self: stretch;
   justify-self: stretch;
   position: relative;
@@ -855,4 +844,4 @@ ol, ul {
 
 ._2OIRR * {
   vector-effect: non-scaling-stroke;
-}
+}  */

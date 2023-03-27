@@ -3,7 +3,7 @@
     --alpha-bg: 1;
     --shc-mutated-brightness: 128,128,128;
     height: auto;
-    top: calc(var(--top) + var(--sticky-top) + var(--wix-ads-top-height) * var(--is-sticky));
+    top: calc(var(--top) + var(--sticky-top) * var(--is-sticky));
     position: relative;
     --is-sticky: 0;
     --sticky-top: 0px;
@@ -36,18 +36,9 @@
     top: 0;
 }
 
-#page-sections-home {
+#page_sections-home {
   --pinned-layer-in-container: 49;
   --above-all-in-container: 49;
-  display: contents;
-}
-
-.display-contents {
-  display: contents !important;
-}
-
-.page-sections-home {
-
 }
 
 @media (min-width: 320px) and (max-width: 750px) {

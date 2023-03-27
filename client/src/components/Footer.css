@@ -1,9 +1,4 @@
 /*! CSS Used from: Embedded */
-a,div,img,li,p,section,span,title,ul{margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent;}
-ul{list-style:none;}
-a{cursor:pointer;text-decoration:none;}
-:focus{outline:none;}
-/*! CSS Used from: Embedded */
 ._1-6YJ{width:100%;height:100%;display:block;}
 ._3SQN-,.bgLayers{position:absolute;top:0;width:100%;height:100%;}
 .bgLayers{left:0;overflow:hidden;-webkit-mask-image:var(--mask-image,none);mask-image:var(--mask-image,none);-webkit-mask-position:var(--mask-position,0);mask-position:var(--mask-position,0);-webkit-mask-size:var(--mask-size,100%);mask-size:var(--mask-size,100%);-webkit-mask-repeat:var(--mask-repeat,no-repeat);mask-repeat:var(--mask-repeat,no-repeat);pointer-events:var(--fill-layer-background-media-pointer-events);}

@@ -8,46 +8,16 @@ import "./DrawerToggler.css"
 export const NavBar = props => {
 
   return (
-<>
-    {/* <section id="navBar_section" className="navBar_section_container page_bg" tabIndex={-1}>
-        <div id="navBar_title" className="navBar_title titleText">
-            <p className="font_8">
-              <a href="https://www.thekiterises.com" target="_self">
-              Creative Agency
-              </a></p>
-        </div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-    </section> */}
-    <section id="navbar" className = "bgColors navbar-content" tabIndex = {- 1}>
+    <section id="navbar" className="bgColors navbar-content" tabIndex="- 1" >
         <div id="navbar-text" className="textRules" data-testid="richTextElement">
-          <p class="font_8"><a href="https://www.thekiterises.com" target="_self">Creative Agency</a></p>
-          {/* <img src="/LogoTKR.png" alt="TKR logo"></img> */}
+          <p class="font_8">
+            <a href="https://www.thekiterises.com" target="_self">Creative Agency</a></p>
         </div>
         <div id="navbar-toggle">
           <DrawerToggleButton click={props.drawerClickHandler} />
-          {/* <a data-testid="linkElement" data-popupid="hb7v8" target="_self" role="button" className="_2wYm8" tabIndex="0">
-            <div data-testid="svgRoot-comp-ka50ygrl_r_comp-l1ba4x9l" className="_3bLYT _2OIRR N1N2o">
-            <svg preserveAspectRatio="xMidYMid meet" data-bbox="21 21 158 158" viewBox="21 21 158 158" height="200" width="200" xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation" aria-hidden="true" aria-labelledby="svgcid-jd2soa577qm8">
-            <title id="svgcid-jd2soa577qm8"></title>
-            <g>
-            <path fill="#000001" d="M179 100c0 43.63-35.37 79-79 79s-79-35.37-79-79 35.37-79 79-79 79 35.37 79 79z" data-color="1"></path>
-            <path fill="#FFFFFF" d="M145 84v6H55v-6h90z" data-color="2"></path>
-            <path fill="#FFFFFF" d="M145 109v6H55v-6h90z" data-color="2"></path>
-            </g>
-            </svg>
-          </div></a> */}
         </div>
         </section >
-        </>
 
-    /* <nav className="nav">
-    <img src="/LogoTKR.png" alt="TKR logo"></img>
-    <DrawerToggleButton click={props.drawerClickHandler} />
-    
-    </nav > */
 
   // return (
   //   <>

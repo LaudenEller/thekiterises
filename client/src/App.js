@@ -8,15 +8,10 @@
 import { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Backdrop } from './components/nav/backdrop/Backdrop';
-import SideDrawer from './components/nav/SideDrawer';
-import { NavBar } from './components/nav/NavBar1';
 import Home from './pages/Home';
 import "@fontsource/barlow"
 import './index.css';
 import './fonts/lulo-clean-w01-one-bold.ttf'
-import Home1 from './pages/Home1';
-import Footer from './components/Footer';
-import SiteContainer from './pages/SiteContainer';
 
 function App() {
   const [sideDrawerOpen, setSideDrawerOpen] = useState(false)
@@ -43,6 +38,8 @@ function App() {
 
     //  this is the layers of app structure which allow app responsiveness on any page within the app
     // the nav bar, footer and page components will have to move inside these divs
+      <div id='div_above_site_content'>
+        <div id='site_content'>
       <div id="masterPage" className="masterPage">
         <div id="site_pages">
           <div id="site_pages_transition_group" className='transition_group'>
@@ -59,7 +56,8 @@ function App() {
           </div>
         </div>
       </div>
-
+      </div>
+      </div>
 
     // </>
   );
