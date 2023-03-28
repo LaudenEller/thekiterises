@@ -13,10 +13,10 @@ const Services = () => {
                         <div className="listContainerCSS"></div>
                         <div id="serviceContent__item1" className="containerBorder serviceContent-container">
                             <div className="listContainerCSS"></div>
-                            <div id="serviceTitle__item1" className="textRules" data-testid="richTextElement">
+                            <div id="serviceTitle__item1" className="text_rules" data-testid="richTextElement">
                                 <h2 className="font_2"><span>DIGITAL STRATEGY</span></h2>
                             </div>
-                            <div id="serviceList__item1" className="textRules" data-testid="richTextElement">
+                            <div id="serviceList__item1" className="text_rules" data-testid="richTextElement">
                                 <ul className="font_8" style={{ textAlign: "left" }}>
                                     <li>
                                         <p className="font_8">Content Strategy</p>
@@ -51,9 +51,9 @@ const Services = () => {
                                 </ul></div></div></div>
                     <div id="serviceContentContainer__item2" role="listitem" className="containerBorder serviceContentContainer-container">
                         <div className="listContainerCSS"></div><div id="serviceContent__item2" className="containerBorder serviceContent-container">
-                            <div className="listContainerCSS"></div><div id="serviceTitle__item2" className="textRules" data-testid="richTextElement">
+                            <div className="listContainerCSS"></div><div id="serviceTitle__item2" className="text_rules" data-testid="richTextElement">
                                 <h2 className="font_2">DESIGN</h2></div>
-                            <div id="serviceList__item2" className="textRules" data-testid="richTextElement">
+                            <div id="serviceList__item2" className="text_rules" data-testid="richTextElement">
                                 <ul className="font_8">
                                     <li>
                                         <p className="font_8">Brand Identity</p>
@@ -73,9 +73,9 @@ const Services = () => {
                                 </ul></div></div></div>
                     <div id="serviceContentContainer__item3" role="listitem" className="containerBorder serviceContentContainer-container">
                         <div className="listContainerCSS"></div><div id="serviceContent__item3" className="containerBorder serviceContent-container">
-                            <div className="listContainerCSS"></div><div id="serviceTitle__item3" className="textRules" data-testid="richTextElement">
+                            <div className="listContainerCSS"></div><div id="serviceTitle__item3" className="text_rules" data-testid="richTextElement">
                                 <h2 className="font_2">MARKETING</h2></div>
-                            <div id="serviceList__item3" className="textRules" data-testid="richTextElement">
+                            <div id="serviceList__item3" className="text_rules" data-testid="richTextElement">
                                 <ul className="font_8">
                                     <li>
                                         <p className="font_8"><span>Consulting</span></p>
@@ -105,9 +105,9 @@ const Services = () => {
                     <div id="serviceContentContainer__item4" role="listitem" className="containerBorder serviceContentContainer-container">
                         <div className="listContainerCSS"></div><div id="serviceContent__item4" className="containerBorder serviceContent-container">
                             <div className="listContainerCSS"></div>
-                            <div id="serviceTitle__item4" className="textRules" data-testid="richTextElement">
+                            <div id="serviceTitle__item4" className="text_rules" data-testid="richTextElement">
                                 <h2 className="font_2"><span>CONTENT CREATION</span></h2></div>
-                            <div id="serviceList__item4" className="textRules" data-testid="richTextElement">
+                            <div id="serviceList__item4" className="text_rules" data-testid="richTextElement">
                                 <ul className="font_8">
                                     <li>
                                         <p className="font_8"><span>Photo &amp; Video Production</span></p>
@@ -130,9 +130,9 @@ const Services = () => {
                                 </ul></div></div></div>
                     <div id="serviceContentContainer__item5" role="listitem" className="containerBorder serviceContentContainer-container">
                         <div className="listContainerCSS"></div><div id="serviceContent__item5" className="containerBorder serviceContent-container">
-                            <div className="listContainerCSS"></div><div id="serviceTitle__item5" className="textRules" data-testid="richTextElement">
+                            <div className="listContainerCSS"></div><div id="serviceTitle__item5" className="text_rules" data-testid="richTextElement">
                                 <h2 className="font_2">INFLUENCER MARKETING</h2></div>
-                            <div id="serviceList__item5" className="textRules" data-testid="richTextElement">
+                            <div id="serviceList__item5" className="text_rules" data-testid="richTextElement">
                                 <ul className="font_8">
                                     <li>
                                         <p className="font_8"><span>Content Strategy</span></p>

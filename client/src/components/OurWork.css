@@ -3,11 +3,6 @@ a,div,h1,section,span{margin:0;padding:0;border:0;outline:0;vertical-align:basel
 a{cursor:pointer;text-decoration:none;}
 :focus{outline:none;}
 /*! CSS Used from: Embedded */
-.textRules h1{line-height:normal;letter-spacing:normal;}
-.textRules{word-wrap:break-word;overflow-wrap:break-word;text-align:start;pointer-events:none;min-height:var(--min-height);min-width:var(--min-width);}
-.textRules>*{pointer-events:auto;}
-.textRules h1{margin:0;}
-/*! CSS Used from: Embedded */
 ._3wqEk{text-align:initial;display:flex;align-items:center;box-sizing:border-box;width:-webkit-max-content;width:-moz-max-content;width:max-content;justify-content:var(--label-align);min-width:100%;}
 ._3wqEk:before{max-width:var(--margin-left,0);}
 ._3wqEk:after,._3wqEk:before{content:"";flex-grow:1;align-self:stretch;}

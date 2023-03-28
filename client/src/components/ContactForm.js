@@ -21,10 +21,10 @@ const ContactForm = () => {
     return (
         // <div className="contact-form">Form</div>
         <section id="contactSection" className="sectionBgColor contactSection-container" data-testid="section-container">
-            <div id="contactUsContainer" className="textRules _3bcaz" data-testid="richTextElement">
+            <div id="contactUsContainer" className="text_rules _3bcaz" data-testid="richTextElement">
                 <h3 className="font_4" style={{ lineHeight: "1em" }}>Contact us:</h3>
             </div>
-            <div id="addressContainer" className="textRules _3bcaz" data-testid="richTextElement">
+            <div id="addressContainer" className="text_rules _3bcaz" data-testid="richTextElement">
                 <p className="font_5">
                     <span>9115 SW Burnham St, Portland, OR 97223
                         INFO@THEKITERISES.COM
@@ -40,7 +40,7 @@ const ContactForm = () => {
                         <textarea name="message" id="textarea_messageInput" className="contactFormMessageText has-custom-focus" rows="1" placeholder="Message *" required="" aria-required="true" value={inputs.message || ""} onChange={handleChange}>
                         </textarea>
                     </div>
-                    <div id="contactFormSubmitMessage" className="textRules _3bcaz" data-testid="richTextElement">
+                    <div id="contactFormSubmitMessage" className="text_rules _3bcaz" data-testid="richTextElement">
                         <p className="font_8">Thanks for submitting!</p>
                     </div>
                     <div id="contactFormFirstName" className="formUserInfo">
@@ -71,10 +71,10 @@ const ContactForm = () => {
         </section >
 
         // <section id="comp-ka50ygve3_r_comp-k6gjwdge" className="_3uJnK comp-ka50ygve3_r_comp-k6gjwdge-container undefined" data-testid="section-container">
-        //     <div id="comp-ka50ygve3_r_comp-k9sgts2o" className="textRules _3bcaz" data-testid="richTextElement">
+        //     <div id="comp-ka50ygve3_r_comp-k9sgts2o" className="text_rules _3bcaz" data-testid="richTextElement">
         //         <h3 className="font_4" style={{ lineHeight: "1em" }}>Contact us:</h3>
         //     </div>
-        //     <div id="comp-ka50ygve3_r_comp-k9sh4qe5" className="textRules _3bcaz" data-testid="richTextElement">
+        //     <div id="comp-ka50ygve3_r_comp-k9sh4qe5" className="text_rules _3bcaz" data-testid="richTextElement">
         //         <p className="font_5">
         //             <span>9115 SW Burnham St, Portland, OR 97223
         //                 INFO@THEKITERISES.COM
@@ -90,7 +90,7 @@ const ContactForm = () => {
         //                 <textarea name="message" id="textarea_messageInput" className="_1VWbH has-custom-focus" rows="1" placeholder="Message *" required="" aria-required="true" value={inputs.message || ""} onChange={handleChange}>
         //                 </textarea>
         //                 </div>
-        //             <div id="comp-ka50ygve3_r_comp-k9sirayt1" className="textRules _3bcaz" data-testid="richTextElement">
+        //             <div id="comp-ka50ygve3_r_comp-k9sirayt1" className="text_rules _3bcaz" data-testid="richTextElement">
         //                 <p className="font_8">Thanks for submitting!</p>
         //                 </div>
         //             <div id="comp-ka50ygve3_r_comp-k9siraya" className="nK06J">

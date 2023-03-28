@@ -5,7 +5,7 @@ const WelcomeBanner = () => {
     return (
         <section id="wb_section" className={"wb_section_container bg_color"}>
             <div id="wb_bg_layers" className="bg_layers">
-                <div className={"bg_media_color bg_layers"}></div>
+                <div className={"bg_media_color bg_media_layers"}></div>
                 <div className="bg_media"></div>
             </div>
             <div id="wb_iframe_container">

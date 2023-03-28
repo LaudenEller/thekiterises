@@ -23,11 +23,11 @@ const Footer = () => {
                                     <img alt="Instagram" style={{width: "30px", height: "30px", objectFit: "cover"}} src="https://static.wixstatic.com/media/81af6121f84c41a5b4391d7d37fce12a.png/v1/fill/w_60,h_60,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/81af6121f84c41a5b4391d7d37fce12a.png" />
                                     </wix-image></a></li></ul></div>
                 <div id="comp-l2lk0oa9" className="_3Fes4 comp-l2lk0oa9-container">
-                    <div className="_2l-6d"></div><div id="comp-l2lk0oae" className="textRules _3bcaz" data-testid="richTextElement">
+                    <div className="_2l-6d"></div><div id="comp-l2lk0oae" className="text_rules _3bcaz" data-testid="richTextElement">
                         <p className="font_7"><span><span style={{textDecoration: "underline"}}>
                             <a href="https://www.thekiterises.com/privicypolicy" target="_self">Privacy policy</a></span>
                         </span></p></div>
-                    <div id="comp-l2lk0oam" className="textRules _3bcaz" data-testid="richTextElement">
+                    <div id="comp-l2lk0oam" className="text_rules _3bcaz" data-testid="richTextElement">
                         <p className="font_8">Copyright © The Kite Rises 2022&nbsp;| All Rights Reserved.</p></div></div></div>
             <div id="comp-krcn2c18" className="_1EyUC comp-krcn2c18-container" data-audio="off" data-has-play="" data-no-audio="" data-playing="" data-animate-poster="none" data-has-alpha="true" data-can-play="" data-show-canvas="">
                 <div className="_1zNyT _3SQDg" tabindex="0" role="button" aria-label=" Play video" aria-pressed="true">

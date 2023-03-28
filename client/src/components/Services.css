@@ -3,14 +3,6 @@
 ._3wnIc{left:0;overflow:hidden;-webkit-mask-image:var(--mask-image,none);mask-image:var(--mask-image,none);-webkit-mask-position:var(--mask-position,0);mask-position:var(--mask-position,0);-webkit-mask-size:var(--mask-size,100%);mask-size:var(--mask-size,100%);-webkit-mask-repeat:var(--mask-repeat,no-repeat);mask-repeat:var(--mask-repeat,no-repeat);pointer-events:var(--fill-layer-background-media-pointer-events);} */
 /* ._2GUhU{height:100%;} */
 /* ._3KzuS{background-color:var(--bg-overlay-color);background-image:var(--bg-gradient);} */
-/*! CSS Used from: Embedded */
-.textRules h2,.textRules p{line-height:normal;letter-spacing:normal;}
-.textRules{word-wrap:break-word;overflow-wrap:break-word;text-align:start;pointer-events:none;min-height:var(--min-height);min-width:var(--min-width);}
-.textRules>*{pointer-events:auto;}
-.textRules li{font-style:inherit;font-weight:inherit;line-height:inherit;letter-spacing:normal;}
-.textRules ul{padding-left:1.3em;padding-right:0;margin-left:.5em;margin-right:0;line-height:normal;letter-spacing:normal;}
-.textRules ul{list-style-type:disc;}
-.textRules h2,.textRules p{margin:0;}
 /* ! CSS Used from: Embedded
 ._3uJnK{background-color:rgba(var(--bg,var(--color_11)),var(--alpha-bg,1));}
 /*! CSS Used from: Embedded */

@@ -81,11 +81,27 @@ strong, sub, sup, table, tbody, td, tfoot, th, thead, title, tr, tt, u, ul, var 
   background-image: var(--bg-gradient);
 }
 
-.bg_layers .bg_media {
+.bg_media_layers, .bg_media {
   height: 100%;
-  position: absolute;
-  top: 0;
   width: 100%;
+  position: absolute;
+    top: 0;
+}
+
+.bg_layers{
+  left: 0;
+    -webkit-mask-image: var(--mask-image, none);
+    mask-image: var(--mask-image, none);
+    -webkit-mask-position: var(--mask-position, 0);
+    mask-position: var(--mask-position, 0);
+    -webkit-mask-repeat: var(--mask-repeat, no-repeat);
+    mask-repeat: var(--mask-repeat, no-repeat);
+    -webkit-mask-size: var(--mask-size, 100%);
+    mask-size: var(--mask-size, 100%);
+    overflow: hidden;
+    pointer-events: var(--fill-layer-background-media-pointer-events);
+    position: absolute;
+  top: 0;
 }
 
 .bg_media{
@@ -94,6 +110,32 @@ strong, sub, sup, table, tbody, td, tfoot, th, thead, title, tr, tt, u, ul, var 
 
 .display_contents{
   display: contents;
+}
+
+.text_rules, a {
+  color: inherit;
+}
+
+.text_rules blockquote, .text_rules h1, .text_rules h2, .text_rules h3, .text_rules h4, .text_rules h5, .text_rules h6, .text_rules p, blockquote {
+  margin: 0;
+}
+
+.text_rules blockquote, .text_rules h1, .text_rules h2, .text_rules h3, .text_rules h4, .text_rules h5, .text_rules h6, .text_rules p {
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.text_rules {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  text-align: start;
+  pointer-events: none;
+  min-height: var(--min-height);
+  min-width: var(--min-width);
+}
+
+.text_rules>* {
+  pointer-events: auto;
 }
 
 /* "Html" is the second highest level of scope */

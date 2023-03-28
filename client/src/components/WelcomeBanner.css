@@ -42,7 +42,8 @@
     --container-display: grid;
 }
 
-#wb_bg_layers {
+/* Identical CSS rules coming from .bg_layers in index.css */
+/* #wb_bg_layers {
     left: 0;
     -webkit-mask-image: var(--mask-image, none);
     mask-image: var(--mask-image, none);
@@ -54,7 +55,7 @@
     mask-size: var(--mask-size, 100%);
     overflow: hidden;
     pointer-events: var(--fill-layer-background-media-pointer-events);
-}
+} */
 
 #wb_iframe_container {
     min-height: 475.2421875px;

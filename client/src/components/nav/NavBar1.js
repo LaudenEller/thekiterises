@@ -9,7 +9,7 @@ export const NavBar = props => {
 
   return (
     <section id="navbar" className="bgColors navbar-content" tabIndex="- 1" >
-        <div id="navbar-text" className="textRules" data-testid="richTextElement">
+        <div id="navbar-text" className="text_rules" data-testid="richTextElement">
           <p class="font_8">
             <a href="https://www.thekiterises.com" target="_self">Creative Agency</a></p>
         </div>

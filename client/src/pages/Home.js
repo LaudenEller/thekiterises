@@ -77,7 +77,7 @@ const Home = () => {
 
                         {/* Add Our Work Container */}
                         <OurWork />
-                        <Footer />
+                        {/* <Footer /> */}
                     </main>
                     <footer>
                     {/* Remove this section below here because it will be replaced with footer module */}
