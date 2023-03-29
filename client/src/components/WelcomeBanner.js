@@ -1,7 +1,7 @@
 import "./WelcomeBanner.css"
 
 const WelcomeBanner = () => {
-
+const tkrLogo = '../../public/images/logo_tkr_banner.png'
     return (
         <section id="wb_section" className={"wb_section_container bg_color"}>
             <div id="wb_bg_layers" className="bg_layers">
@@ -20,18 +20,20 @@ const WelcomeBanner = () => {
                 </div>
             </div>
             <div id="logo_container" className={"logo logo_container-image"}>
-                <image data-image-info="{&quot;containerId&quot;:&quot;logoContainer&quot;,&quot;alignType&quot;:&quot;center&quot;,&quot;parallaxSpeed&quot;:1.5,&quot;sourceSets&quot;:[],&quot;imageData&quot;:{&quot;uri&quot;:&quot;d821fb_f8f501579e974018ad8f3bbd02e71683~mv2.png&quot;,&quot;width&quot;:3130,&quot;height&quot;:1194,&quot;alt&quot;:&quot;&quot;,&quot;name&quot;:&quot;Logo TKR.png&quot;,&quot;focalPoint&quot;:null}}"
+                <image><img src={tkrLogo} alt="TKR" style={{ objectFit: "cover", objectPosition: "50% 50%", width: "100%" }}/> </image>
+                {/* <image 
+                data-image-info="{&quot;containerId&quot;:&quot;logoContainer&quot;,&quot;alignType&quot;:&quot;center&quot;,&quot;parallaxSpeed&quot;:1.5,&quot;sourceSets&quot;:[],&quot;imageData&quot;:{&quot;uri&quot;:&quot;d821fb_f8f501579e974018ad8f3bbd02e71683~mv2.png&quot;,&quot;width&quot;:3130,&quot;height&quot;:1194,&quot;alt&quot;:&quot;&quot;,&quot;name&quot;:&quot;Logo TKR.png&quot;,&quot;focalPoint&quot;:null}}"
                     data-has-ssr-src=""
                     data-src="https://static.wixstatic.com/media/d821fb_f8f501579e974018ad8f3bbd02e71683~mv2.png/v1/fill/w_316,h_120,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Logo%20TKR.png">
-                    <picture id="img-logoContainer"
+                    <picture
                         data-image-info="{&quot;containerId&quot;:&quot;logoContainer&quot;,&quot;alignType&quot;:&quot;center&quot;,&quot;parallaxSpeed&quot;:1.5,&quot;sourceSets&quot;:[],&quot;imageData&quot;:{&quot;uri&quot;:&quot;d821fb_f8f501579e974018ad8f3bbd02e71683~mv2.png&quot;,&quot;width&quot;:3130,&quot;height&quot;:1194,&quot;alt&quot;:&quot;&quot;,&quot;name&quot;:&quot;Logo TKR.png&quot;,&quot;focalPoint&quot;:null}}"
                         data-has-ssr-src=""
                         data-src="https://static.wixstatic.com/media/d821fb_f8f501579e974018ad8f3bbd02e71683~mv2.png/v1/fill/w_316,h_120,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Logo%20TKR.png">
-                        <img src="https://static.wixstatic.com/media/d821fb_f8f501579e974018ad8f3bbd02e71683~mv2.png/v1/fill/w_316,h_120,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Logo%20TKR.png"
-                            alt=""
+                            <img src="https://static.wixstatic.com/media/d821fb_f8f501579e974018ad8f3bbd02e71683~mv2.png/v1/fill/w_316,h_120,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Logo%20TKR.png"
+                            alt="TKR"
                             style={{ objectFit: "cover", objectPosition: "50% 50%", width: "100%" }} />
                     </picture>
-                </image>
+                </image> */}
             </div>
         </section>
     )

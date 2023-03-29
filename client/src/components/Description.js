@@ -1,6 +1,8 @@
 import "./Description.css"
 
 const Description = () => {
+    const descriptionImage1 = '../../public/images/tkr_description_image_1.png'
+    const descriptionImage2 = '../public/images/tkr_description_image_2.png'
 
     return (
 
@@ -22,11 +24,13 @@ const Description = () => {
                 </div>
 
             <div id="description_image-container_1" className="description_image-containers">
+                {/* <image><img src={descriptionImage1} alt="TKR" style={{ objectFit: "cover", objectPosition: "57% 46%", width: "100%" }} /></image> */}
                 <image data-image-info="{&quot;containerId&quot;:&quot;comp-l7knuxuv&quot;,&quot;alignType&quot;:&quot;center&quot;,&quot;parallaxSpeed&quot;:1.5,&quot;sourceSets&quot;:[{&quot;displayMode&quot;:&quot;fill&quot;,&quot;scrollEffect&quot;:&quot;none&quot;,&quot;mediaQuery&quot;:&quot;(min-width: 320px) and (max-width: 1680px)&quot;}],&quot;imageData&quot;:{&quot;uri&quot;:&quot;d821fb_969cf0853fb14bc19dac51f694476b67~mv2.jpg&quot;,&quot;width&quot;:1688,&quot;height&quot;:1688,&quot;alt&quot;:&quot;&quot;,&quot;name&quot;:&quot;Portland_creative_agency._.jpg&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;focalPoint&quot;:{&quot;x&quot;:57,&quot;y&quot;:46},&quot;scrollEffect&quot;:&quot;none&quot;}}" data-has-ssr-src="" data-src="https://static.wixstatic.com/media/d821fb_969cf0853fb14bc19dac51f694476b67~mv2.jpg/v1/fill/w_134,h_132,fp_0.57_0.46,q_80,usm_0.66_1.00_0.01,enc_auto/Portland_creative_agency__.jpg">
                     <picture>
-                        {/* <source media="(min-width: 320px) and (max-width: 1680px)" srcset="https://static.wixstatic.com/media/d821fb_969cf0853fb14bc19dac51f694476b67~mv2.jpg/v1/fill/w_262,h_260,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Portland_creative_agency__.jpg" data-srcset="https://static.wixstatic.com/media/d821fb_969cf0853fb14bc19dac51f694476b67~mv2.jpg/v1/fill/w_262,h_260,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Portland_creative_agency__.jpg" /> */}
-                        <img src="https://static.wixstatic.com/media/d821fb_969cf0853fb14bc19dac51f694476b67~mv2.jpg/v1/fill/w_262,h_260,fp_0.57_0.46,q_80,usm_0.66_1.00_0.01,enc_auto/Portland_creative_agency__.jpg" alt="TheKiteRises" style={{ objectFit: "cover", objectPosition: "57% 46%", width: "100%" }} />
-                    </picture></image></div>
+                        <source media="(min-width: 320px) and (max-width: 1680px)" srcset="https://static.wixstatic.com/media/d821fb_969cf0853fb14bc19dac51f694476b67~mv2.jpg/v1/fill/w_262,h_260,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Portland_creative_agency__.jpg" data-srcset="https://static.wixstatic.com/media/d821fb_969cf0853fb14bc19dac51f694476b67~mv2.jpg/v1/fill/w_262,h_260,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Portland_creative_agency__.jpg" />
+                        <img src="https://static.wixstatic.com/media/d821fb_969cf0853fb14bc19dac51f694476b67~mv2.jpg/v1/fill/w_262,h_260,fp_0.57_0.46,q_80,usm_0.66_1.00_0.01,enc_auto/Portland_creative_agency__.jpg" alt="TKR" style={{ objectFit: "cover", objectPosition: "57% 46%", width: "100%" }} />
+                    </picture></image>
+                    </div>
 
             <div id="description_image-container_2" className="description_image-containers">
                 <image data-image-info="{&quot;containerId&quot;:&quot;comp-l7knxrj8&quot;,&quot;alignType&quot;:&quot;center&quot;,&quot;parallaxSpeed&quot;:1.5,&quot;sourceSets&quot;:[],&quot;imageData&quot;:{&quot;uri&quot;:&quot;d821fb_6167014f708e4f91a562ffe22d379779~mv2.jpg&quot;,&quot;width&quot;:2002,&quot;height&quot;:2002,&quot;alt&quot;:&quot;&quot;,&quot;name&quot;:&quot;Portland_creative_agency_edited.jpg&quot;,&quot;focalPoint&quot;:null}}" data-has-ssr-src="" data-src="https://static.wixstatic.com/media/d821fb_6167014f708e4f91a562ffe22d379779~mv2.jpg/v1/fill/w_138,h_130,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Portland_creative_agency_edited.jpg">
