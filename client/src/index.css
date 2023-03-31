@@ -104,15 +104,21 @@ strong, sub, sup, table, tbody, td, tfoot, th, thead, title, tr, tt, u, ul, var 
   top: 0;
 }
 
-.bg_media{
+.I5zqsT, .bg_layers {
   height: 100%;
+  width: 100%;
+}
+
+.bg_color-container{
+  --container-corvid-background-color: rgba(var(--bg,var(--color_11)),var(--alpha-bg,1));
+    background-color: var(--container-corvid-background-color,rgba(var(--bg,var(--color_11)),var(--alpha-bg,1)));
 }
 
 .display_contents{
   display: contents;
 }
 
-.text_rules, a {
+.text_rules a {
   color: inherit;
 }
 

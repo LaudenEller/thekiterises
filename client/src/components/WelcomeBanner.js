@@ -20,8 +20,8 @@ const tkrLogo = '../../public/images/logo_tkr_banner.png'
                 </div>
             </div>
             <div id="logo_container" className={"logo logo_container-image"}>
-                <image><img src={tkrLogo} alt="TKR" style={{ objectFit: "cover", objectPosition: "50% 50%", width: "100%" }}/> </image>
-                {/* <image 
+                {/* <image><img src={tkrLogo} alt="TKR" style={{ objectFit: "cover", objectPosition: "50% 50%", width: "100%" }}/> </image> */}
+                <image 
                 data-image-info="{&quot;containerId&quot;:&quot;logoContainer&quot;,&quot;alignType&quot;:&quot;center&quot;,&quot;parallaxSpeed&quot;:1.5,&quot;sourceSets&quot;:[],&quot;imageData&quot;:{&quot;uri&quot;:&quot;d821fb_f8f501579e974018ad8f3bbd02e71683~mv2.png&quot;,&quot;width&quot;:3130,&quot;height&quot;:1194,&quot;alt&quot;:&quot;&quot;,&quot;name&quot;:&quot;Logo TKR.png&quot;,&quot;focalPoint&quot;:null}}"
                     data-has-ssr-src=""
                     data-src="https://static.wixstatic.com/media/d821fb_f8f501579e974018ad8f3bbd02e71683~mv2.png/v1/fill/w_316,h_120,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Logo%20TKR.png">
@@ -33,7 +33,7 @@ const tkrLogo = '../../public/images/logo_tkr_banner.png'
                             alt="TKR"
                             style={{ objectFit: "cover", objectPosition: "50% 50%", width: "100%" }} />
                     </picture>
-                </image> */}
+                </image>
             </div>
         </section>
     )
