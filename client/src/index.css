@@ -81,11 +81,15 @@ strong, sub, sup, table, tbody, td, tfoot, th, thead, title, tr, tt, u, ul, var 
   background-image: var(--bg-gradient);
 }
 
-.bg_media_layers, .bg_media {
+.bg_media_layers {
   height: 100%;
   width: 100%;
   position: absolute;
-    top: 0;
+  top: 0;
+}
+
+.bg_media {
+  height: 100%;
 }
 
 .bg_layers{
@@ -114,8 +118,24 @@ strong, sub, sup, table, tbody, td, tfoot, th, thead, title, tr, tt, u, ul, var 
     background-color: var(--container-corvid-background-color,rgba(var(--bg,var(--color_11)),var(--alpha-bg,1)));
 }
 
+.container_shape{
+  --container-corvid-border-color: rgba(var(--brd,var(--color_15)),var(--alpha-brd,1));
+  --container-corvid-border-size: var(--brw,1px);
+  --container-corvid-background-color: rgba(var(--bg,var(--color_11)),var(--alpha-bg,1));
+}
+
 .display_contents{
   display: contents;
+}
+
+.display_table{
+    --display: table;
+    display: var(--display);
+}
+
+.display_flex{
+  display: flex;
+  flex-direction: var(--flex-direction);
 }
 
 .text_rules a {

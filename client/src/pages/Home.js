@@ -70,14 +70,10 @@ const Home = () => {
                 ))}
             </div> */}
                         <WelcomeBanner />
-                        {/* Services container */}
                         <Services />
-                        {/* description container */}
                         <Description />
-
-                        {/* Add Our Work Container */}
                         <OurWork />
-                        {/* <Footer /> */}
+                        <Footer />
                     </main>
                     <footer>
                     {/* Remove this section below here because it will be replaced with footer module */}
