@@ -75,11 +75,11 @@ const Home = () => {
                         <OurWork />
                         <Footer />
                     </main>
-                    <footer>
+                    <footer id="footer" className={"footer footer-container"}>
                     {/* Remove this section below here because it will be replaced with footer module */}
                     <ContactForm />
                     </footer>
-                    <MysterySvg />
+                    {/* <MysterySvg /> */}
                 </div>
             </div>
         </div>

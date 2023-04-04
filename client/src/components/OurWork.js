@@ -9,8 +9,8 @@ const OurWork = () => {
                     <h1 className="font_5">
                         <span style={{ fontWeight: "400" }}>Explore our work</span></h1>
                 </div>
-                <div id="our_work_link" className={"our_work_link our_work_link-rules"} style={{ visibility: "inherit" }} aria-disabled="false">
-                    <a href="https://www.thekiterises.com/ourwork" target="_self" className={"touch_action our_work_link-box"} aria-disabled="false">
+                <div id="our_work_link" className={"our_work_link link-rules"} style={{ visibility: "inherit" }} aria-disabled="false">
+                    <a href="https://www.thekiterises.com/ourwork" target="_self" className={"touch_action link"} aria-disabled="false">
                         <span className="hover_animation">Explore</span>
                     </a></div>
             </section>
