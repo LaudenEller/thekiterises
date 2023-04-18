@@ -41,6 +41,30 @@
   --above-all-in-container: 49;
 }
 
+#nav {
+  height: auto;
+  width: auto;
+  top: calc(var(--top) + var(--sticky-top) + var(--wix-ads-top-height) * var(--is-sticky));
+  align-self: stretch;
+  justify-self: stretch;
+  grid-area: 1/1/2/2;
+  position: relative;
+  --is-sticky: 0;
+  --sticky-top: 0px;
+  --top: 0px;
+  --above-all-in-container: 49;
+  --bg: var(--color_11);
+  --alpha-bg: 0;
+}
+
+.nav-container {
+  box-sizing: border-box;
+  display: var(--l_display, var(--container-display));
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  --container-display: grid;
+}
+
 #footer{
   height: auto;
   width: auto;

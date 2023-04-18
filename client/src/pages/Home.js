@@ -9,11 +9,12 @@ import Description from "../components/Description"
 import Footer from "../components/Footer"
 import MysterySvg from "../components/MysterySvg"
 import { Backdrop } from "../components/nav/backdrop/Backdrop"
-import { NavBar } from "../components/nav/NavBar1"
+import NavBar from "../components/nav/NavBar1"
 import SideDrawer from "../components/nav/SideDrawer"
 import OurWork from "../components/OurWork"
 import Services from "../components/Services"
 import WelcomeBanner from "../components/WelcomeBanner"
+import Navbar from "../components/Navbar2"
 import "./Home.css"
 import "../components/nav/NavBar.css"
 // import SiteContainer from "./SiteContainer"
@@ -56,12 +57,16 @@ const Home = () => {
             <div className='page_bg-home_page'></div>
             <div>
                 <div className='home_page-container'>
-                    <header id="navbar-header" className='navbar-header navbar-header-container'>
-                        {/* insert nav, footer and page content components */}
+                <header id="nav" className="nav nav-container">
+                    <Navbar drawerClickHandler={DrawerTogglerHandler}/>
+                    <SideDrawer show={sideDrawerOpen} setSideDrawerOpen={setSideDrawerOpen} sideDrawerOpen={sideDrawerOpen} />
+                    </header>
+                    {/* <header id="navbar-header" className='navbar-header navbar-header-container'>
+                        insert nav, footer and page content components
                         <NavBar drawerClickHandler={DrawerTogglerHandler} />
                         <SideDrawer show={sideDrawerOpen} setSideDrawerOpen={setSideDrawerOpen} sideDrawerOpen={sideDrawerOpen} />
                         {backdrop}
-                    </header>
+                    </header> */}
                     <main id="page_sections-home" className="display_contents">
                         {/* fetched data that will be removed from this page */}
                         {/* <div className="workSamples">

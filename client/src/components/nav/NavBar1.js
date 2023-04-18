@@ -5,7 +5,7 @@ import { DrawerToggleButton } from "./DrawerToggler"
 import "./NavBar.css"
 import "./DrawerToggler.css"
 
-export const NavBar = props => {
+const NavBar = props => {
 
   return (
     <section id="navbar" className="bgColors navbar-content" tabIndex="- 1" >
@@ -79,3 +79,5 @@ export const NavBar = props => {
   // )
   )
 }
+
+export default NavBar
