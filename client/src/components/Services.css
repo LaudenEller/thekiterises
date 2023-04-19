@@ -114,35 +114,18 @@ ol, ul {
     text-align: start;
 }
 
-/* Q This is likely missing a second class name... */
-.service_text blockquote,
-.service_text h1,
-.service_text h2,
-.service_text h3,
-.service_text h4,
-.service_text h5,
-.service_text h6,
-.service_text p{
+.service_text blockquote, .service_text h1, .service_text h2, .service_text h3, 
+.service_text h4, .service_text h5, .service_text h6, .service_text p{
     margin: 0;
 }
 
-
-.service_text blockquote,
-.service_text h1,
-.service_text h2,
-.service_text h3,
-.service_text h4,
-.service_text h5,
-.service_text h6,
-.service_text p {
+.service_text blockquote, .service_text h1, .service_text h2, .service_text h3,
+.service_text h4, .service_text h5, .service_text h6, .service_text p {
     letter-spacing: normal;
     line-height: normal;
 }
 
-.service_text ol,
-.service_text ul, 
-.KcpHeO ol, 
-.KcpHeO ul {
+.service_text ol, .service_text ul, .KcpHeO ol, .KcpHeO ul {
     letter-spacing: normal;
     line-height: normal;
     list-style-type: disc;
@@ -152,13 +135,11 @@ ol, ul {
     padding-right: 0;
 }
 
-.service_text>*,
-.KcpHeO>* {
+.service_text>*, .KcpHeO>* {
     pointer-events: auto;
 }
 
-.service_text li,
-.KcpHeO li {
+.service_text li, .KcpHeO li {
     font-style: inherit;
     font-weight: inherit;
     letter-spacing: normal;
@@ -251,15 +232,9 @@ ol, ul {
         --fontSize: 45px;
 }
 
-[id^="service_title__"] p, 
-[id^="service_title__"] h1, 
-[id^="service_title__"] h2, 
-[id^="service_title__"] h3, 
-[id^="service_title__"] h4, 
-[id^="service_title__"] h5, 
-[id^="service_title__"] h6, 
-[id^="service_title__"] ul, 
-[id^="service_title__"] ol {
+[id^="service_title__"] p, [id^="service_title__"] h1, [id^="service_title__"] h2, 
+[id^="service_title__"] h3, [id^="service_title__"] h4, [id^="service_title__"] h5, 
+[id^="service_title__"] h6, [id^="service_title__"] ul, [id^="service_title__"] ol {
     font-size: 45px;
     text-align: left;
 }
@@ -288,15 +263,9 @@ ol, ul {
     --fontSize: 16px;
 }
 
-[id^="service_list__"] p,
-[id^="service_list__"] h1,
-[id^="service_list__"] h2,
-[id^="service_list__"] h3,
-[id^="service_list__"] h4,
-[id^="service_list__"] h5,
-[id^="service_list__"] h6,
-[id^="service_list__"] ul,
-[id^="service_list__"] ol {
+[id^="service_list__"] p, [id^="service_list__"] h1, [id^="service_list__"] h2,
+[id^="service_list__"] h3, [id^="service_list__"] h4, [id^="service_list__"] h5,
+[id^="service_list__"] h6, [id^="service_list__"] ul, [id^="service_list__"] ol {
     color: #262626;
     font-size: 16px;
     text-align: left;

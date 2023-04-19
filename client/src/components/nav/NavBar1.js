@@ -1,7 +1,7 @@
 // This component will display the bar at the top of every page, it will contain the website logo and a hamburger link
 
 import React from "react"
-import { DrawerToggleButton } from "./DrawerToggler"
+import  DrawerToggleButton  from "./DrawerToggler"
 import "./NavBar.css"
 import "./DrawerToggler.css"
 
