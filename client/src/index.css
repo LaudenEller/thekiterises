@@ -56,8 +56,6 @@
   --maxViewportSize: 1920;
 }
 
-/* Setting these rules for HTML elements allows them to align properly 
-on any DOM and is a part of facilitating the site's responsiveness */
 a,abbr,acronym,address,applet,b,big,blockquote,body,button,caption,
 center,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,font,footer,
 form,h1,h2,h3,h4,h5,h6,header,html,i,iframe,img,ins,kbd,label,
@@ -229,6 +227,7 @@ input,select,textarea {
   touch-action: manipulation;
 }
 /* "Html" is the second highest level of scope */
+/* body is the third highest level of scope */
 body,html {
   height: 100%;
 }
@@ -242,8 +241,8 @@ body {
     Arial,Helvetica,sans-serif;
   font-size: 10px;
 }
-/* Site_container1 is the fourth highest level of scope */
-.site_content_container {
+/* site_content-container is the fourth highest level of scope */
+.site_content-container {
   position: relative;
 }
 #site_content {

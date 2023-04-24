@@ -1,8 +1,3 @@
-// This module will display the home page including:
-// welcome animation
-// description section
-// services section
-
 import { useEffect, useState } from "react"
 import ContactForm from "../components/ContactForm"
 import Description from "../components/Description"
@@ -61,12 +56,6 @@ const Home = () => {
                     <Navbar drawerClickHandler={DrawerTogglerHandler}/>
                     <SideDrawer show={sideDrawerOpen} setSideDrawerOpen={setSideDrawerOpen} sideDrawerOpen={sideDrawerOpen} />
                     </header>
-                    {/* <header id="navbar-header" className='navbar-header navbar-header-container'>
-                        insert nav, footer and page content components
-                        <NavBar drawerClickHandler={DrawerTogglerHandler} />
-                        <SideDrawer show={sideDrawerOpen} setSideDrawerOpen={setSideDrawerOpen} sideDrawerOpen={sideDrawerOpen} />
-                        {backdrop}
-                    </header> */}
                     <main id="page_sections-home" className="display_contents">
                         {/* fetched data that will be removed from this page */}
                         {/* <div className="workSamples">

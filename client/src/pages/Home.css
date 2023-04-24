@@ -94,11 +94,8 @@
     min-height: 0px;
     height: 400px;
 }
-}
-
-@media (min-width: 320px) and (max-width: 750px){
 #full_service {
-    min-height: 0px;
-    height: 500px;
+  min-height: 0px;
+  height: 500px;
 }
 }

@@ -1,0 +1,326 @@
+/* TODO: 
+
+    Refactor jsx classNames to incorporate styles.module.css
+    
+    Refactor all .css modules to work when locally scoped
+        in new css module-React loading environment
+    
+    Refactor .css module names to element.module.css */
+
+/* highest level of scope that targets the 
+    root HTML element in teh DOM tree,
+    not html elements taggged .root or #root */
+:root {
+    --color_0: 255, 255, 255;
+    --color_27: 179, 130, 230;
+    --color_1: 255, 255, 255;
+    --color_2: 0, 0, 0;
+    --color_3: 237, 28, 36;
+    --color_4: 0, 136, 203;
+    --color_5: 255, 203, 5;
+    --color_6: 114, 114, 114;
+    --color_7: 176, 176, 176;
+    --color_8: 255, 255, 255;
+    --color_28: 122, 28, 217;
+    --color_9: 114, 114, 114;
+    --color_10: 176, 176, 176;
+    --color_11: 255, 255, 255;
+    --color_12: 243, 243, 243;
+    --color_13: 223, 223, 223;
+    --color_14: 62, 62, 62;
+    --color_15: 38, 38, 38;
+    --color_16: 205, 241, 228;
+    --color_17: 160, 226, 202;
+    --color_18: 120, 170, 151;
+    --color_29: 81, 19, 145;
+    --color_19: 80, 113, 101;
+    --color_20: 40, 57, 51;
+    --color_21: 169, 182, 247;
+    --color_22: 126, 145, 238;
+    --color_23: 14, 50, 230;
+    --color_24: 9, 33, 153;
+    --color_25: 5, 17, 77;
+    --color_30: 41, 9, 72;
+    --color_31: 160, 226, 202;
+    --color_32: 110, 197, 165;
+    --color_33: 20, 168, 114;
+    --color_34: 13, 112, 76;
+    --color_35: 7, 56, 38;
+    --font_0: normal normal normal 250px/1.4em barlow-medium, barlow, sans-serif;
+    --font_1: normal normal normal 16px/1.4em din-next-w01-light, din-next-w02-light, din-next-w10-light, sans-serif;
+    --font_2: normal normal normal 85px/1.4em barlow-medium, barlow, sans-serif;
+    --font_3: normal normal normal 88px/1.4em barlow-extralight, barlow, sans-serif;
+    --font_4: normal normal normal 75px/1.4em barlow-extralight, barlow, sans-serif;
+    --font_5: normal normal bold 24px/1.4em poppins-extralight, poppins, sans-serif;
+    --font_6: normal normal bold 14px/1.4em poppins-extralight, poppins, sans-serif;
+    --font_7: normal normal normal 22px/1.4em barlow-medium, barlow, sans-serif;
+    --font_8: normal normal normal 16px/1.4em barlow-extralight, barlow, sans-serif;
+    --font_9: normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496, avenir-lt-w05_35-light, sans-serif;
+    --font_10: normal normal normal 12px/1.4em din-next-w01-light, din-next-w02-light, din-next-w10-light, sans-serif;
+    --wix-ads-height: 0px;
+    --wix-ads-top-height: 0px;
+    --site-width: 980px;
+    --above-all-z-index: 100000;
+    --portals-z-index: 100001;
+    --minViewportSize: 320;
+    --color_26: 207, 172, 242;
+    --maxViewportSize: 1920;
+}
+
+a, abbr, acronym, address, applet, b, big, blockquote, body, button, caption,
+center, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, footer,
+form, h1, h2, h3, h4, h5, h6, header, html, i, iframe, img, ins, kbd, label,
+legend, li, nav, object, ol, p, pre, q, s, samp, section, small, span, strike,
+strong, sub, sup, table, tbody, td, tfoot, th, thead, title, tr, tt, u, ul, var {
+    background: transparent;
+    border: 0;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+input, select, textarea {
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.bg_color {
+    background-color: rgba(var(--bg, var(--color_11)), var(--alpha-bg, 1));
+}
+
+.bg_media_color {
+    background-color: var(--bg-overlay-color);
+    background-image: var(--bg-gradient);
+}
+
+.bg_media_layers {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.bg_media {
+    height: 100%;
+}
+
+.bg_layers {
+    left: 0;
+    -webkit-mask-image: var(--mask-image, none);
+    mask-image: var(--mask-image, none);
+    -webkit-mask-position: var(--mask-position, 0);
+    mask-position: var(--mask-position, 0);
+    -webkit-mask-repeat: var(--mask-repeat, no-repeat);
+    mask-repeat: var(--mask-repeat, no-repeat);
+    -webkit-mask-size: var(--mask-size, 100%);
+    mask-size: var(--mask-size, 100%);
+    overflow: hidden;
+    pointer-events: var(--fill-layer-background-media-pointer-events);
+    position: absolute;
+    top: 0;
+}
+
+.I5zqsT, .bg_layers {
+    height: 100%;
+    width: 100%;
+}
+
+.bg_color-container {
+    --container-corvid-background-color: rgba(var(--bg, var(--color_11)), var(--alpha-bg, 1));
+    background-color: var(--container-corvid-background-color, rgba(var(--bg, var(--color_11)), var(--alpha-bg, 1)));
+}
+
+.container_shape {
+    --container-corvid-border-color: rgba(var(--brd, var(--color_15)), var(--alpha-brd, 1));
+    --container-corvid-border-size: var(--brw, 1px);
+    --container-corvid-background-color: rgba(var(--bg, var(--color_11)), var(--alpha-bg, 1));
+}
+
+.display_contents {
+    display: contents;
+}
+
+.display_table {
+    --display: table;
+    display: var(--display);
+}
+
+.display_flex {
+    display: flex;
+    flex-direction: var(--flex-direction);
+}
+
+.display_grid {
+    --display: grid;
+    display: var(--display);
+    grid-template-columns: minmax(0, 1fr);
+}
+
+.text_rules a {
+    color: inherit;
+}
+
+.text_rules blockquote, .text_rules h1, .text_rules h2, .text_rules h3, .text_rules h4, .text_rules h5, .text_rules h6, .text_rules p, blockquote {
+    margin: 0;
+}
+
+.text_rules blockquote, .text_rules h1, .text_rules h2, .text_rules h3, .text_rules h4, .text_rules h5, .text_rules h6, .text_rules p {
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.text_rules {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: start;
+    pointer-events: none;
+    min-height: var(--min-height);
+    min-width: var(--min-width);
+}
+
+.text_rules>* {
+    pointer-events: auto;
+}
+
+.link-rules1 .link_text {
+    text-align: var(--label-text-align);
+}
+
+.link-rules1 .link_text {
+    font: var(--fnt, var(--font_5));
+    transition: var(--trans2, color .4s ease 0s);
+    position: relative;
+    color: var(--corvid-color, rgb(var(--txt, var(--color_15))));
+}
+
+.link-rules {
+    --display: grid;
+    display: var(--display);
+    grid-template-columns: minmax(0, 1fr);
+}
+
+.link-rules .link:before {
+    flex-shrink: 0;
+    width: var(--margin-left, 0);
+}
+
+.link-rules .link:after {
+    flex-shrink: 0;
+    width: var(--margin-right, 0);
+}
+
+.link-rules:hover {
+    text-align: var(--label-text-align);
+    color: var(--corvid-color, rgb(var(--txt, var(--color_15))));
+    font: var(--fnt, var(--font_5));
+    position: relative;
+    transition: var(--trans2, color .4s ease 0s);
+}
+
+.link-rules[aria-disabled=false] .link {
+    background-color: var(--corvid-background-color, rgba(var(--bg, var(--color_17)), var(--alpha-bg, 1)));
+    border: solid var(--corvid-border-color, rgba(var(--brd, var(--color_15)), var(--alpha-brd, 1))) var(--corvid-border-width, var(--brw, 0));
+    cursor: pointer !important;
+}
+
+.link-rules .link {
+    border-radius: var(--corvid-border-radius, var(--rd, 0));
+    box-shadow: var(--shd, 0 1px 4px rgba(0, 0, 0, .6));
+    padding-bottom: var(--verticalPadding, 0);
+    padding-left: var(--horizontalPadding, 0);
+    padding-right: var(--horizontalPadding, 0);
+    padding-top: var(--verticalPadding, 0);
+    position: relative;
+    transition: var(--trans1, border-color .4s ease 0s, background-color .4s ease 0s);
+    width: auto;
+}
+
+.link {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: var(--label-align);
+    min-width: 100%;
+    text-align: initial;
+    width: -moz-max-content;
+    width: max-content;
+}
+
+.link:before {
+    max-width: var(--margin-left, 0);
+}
+
+.link:after {
+    max-width: var(--margin-right, 0);
+}
+
+.link:after, .link:before {
+    align-self: stretch;
+    content: "";
+    flex-grow: 1;
+}
+
+.touch_action {
+    touch-action: manipulation;
+}
+
+/* "Html" is the second highest level of scope */
+/* body is the third highest level of scope */
+body, html {
+    height: 100%;
+}
+
+/* body is the third highest level of scope */
+body {
+    overflow-x: auto;
+    overflow-y: scroll;
+    margin: 0;
+    font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+/* site_content-container is the fourth highest level of scope */
+.site_content-container {
+    position: relative;
+}
+
+#site_content {
+    margin: 0 auto;
+    min-height: 100%;
+    position: relative;
+}
+
+#site_pages {
+    --transition-duration: 700ms;
+}
+
+/* starts the grid display format */
+.transition_group {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: 100%;
+}
+
+.transition_group>div {
+    align-self: stretch !important;
+    justify-self: stretch !important;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+@font-face {
+    font-family: 'lulo-clean-w01-one-bold';
+    src: local('lulo-clean-w01-one-bold') url('./fonts/lulo-clean-w01-one-bold.ttf') format('truetype');
+}
