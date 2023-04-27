@@ -1,0 +1,101 @@
+#home_page {
+    --bg: 255,255,255;
+    --alpha-bg: 1;
+    --shc-mutated-brightness: 128,128,128;
+    height: auto;
+    top: calc(var(--top) + var(--sticky-top) * var(--is-sticky));
+    position: relative;
+    --is-sticky: 0;
+    --sticky-top: 0px;
+    --top: 0px;
+  }
+  
+  #home_page:not(.home_page-container) {
+    display: var(--l_display,var(--container-display));
+    grid-template-rows: 1fr;
+    grid-template-columns: minmax(0, 1fr);
+    --container-display: grid;
+  }
+  
+  #home_page .home_page-container {
+    position: relative;
+    box-sizing: border-box;
+    display: var(--l_display,var(--container-display));
+    grid-template-rows: auto auto auto auto auto auto auto;
+    grid-template-columns: minmax(0px,1fr);
+    --container-display: grid;
+  }
+
+  .page_bg .page_bg-home_page {
+    background-color: rgba(var(--bg,var(--color_11)),var(--alpha-bg,1));
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#page_sections-home {
+  --pinned-layer-in-container: 49;
+  --above-all-in-container: 49;
+}
+
+#nav {
+  height: auto;
+  width: auto;
+  top: calc(var(--top) + var(--sticky-top) + var(--wix-ads-top-height) * var(--is-sticky));
+  align-self: stretch;
+  justify-self: stretch;
+  grid-area: 1/1/2/2;
+  position: relative;
+  --is-sticky: 0;
+  --sticky-top: 0px;
+  --top: 0px;
+  --above-all-in-container: 49;
+  --bg: var(--color_11);
+  --alpha-bg: 0;
+}
+
+.nav-container {
+  box-sizing: border-box;
+  display: var(--l_display, var(--container-display));
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  --container-display: grid;
+}
+
+#footer{
+  height: auto;
+  width: auto;
+  top: calc(var(--top) + var(--sticky-top) + var(--wix-ads-top-height) * var(--is-sticky));
+  align-self: stretch;
+  justify-self: stretch;
+  grid-area: 6/1/7/2;
+  position: relative;
+  --is-sticky: 0;
+  --sticky-top: 0px;
+  --top: 0px;
+  --bg: var(--color_11);
+  --alpha-bg: 0;
+  --above-all-in-container: 49;
+}
+
+.footer-container{
+  box-sizing: border-box;
+  display: var(--l_display,var(--container-display));
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  --container-display: grid;
+}
+
+@media (min-width: 320px) and (max-width: 750px) {
+#comp-ks9gm86g {
+    min-height: 0px;
+    height: 400px;
+}
+#full_service {
+  min-height: 0px;
+  height: 500px;
+}
+}
