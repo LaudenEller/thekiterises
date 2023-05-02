@@ -10,7 +10,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Backdrop } from './components/nav/backdrop/Backdrop';
 import Home from './pages/Home';
 import "@fontsource/barlow"
-import './index.css';
+// import './index.css';
+import styles from './css/styles.module.css'
 import './fonts/lulo-clean-w01-one-bold.ttf'
 
 function App() {
@@ -39,10 +40,10 @@ function App() {
     //  this is the layers of app structure which allow app responsiveness on any page within the app
     // the nav bar, footer and page components will have to move inside these divs
       <div id='div_above_site_content'>
-        <div id='site_content'>
-      <div id="masterPage" className="masterPage">
-        <div id="site_pages">
-          <div id="site_pages_transition_group" className='transition_group'>
+        <div id='site_content' className={styles.site_content}>
+      <div id="masterPage" className={styles.masterPage}>
+        <div id="site_pages" className={styles.site_pages}>
+          <div id="site_pages_transition_group" className={styles.transition_group}>
         <BrowserRouter>
             {/* <NavBar drawerClickHandler={DrawerTogglerHandler} />
         <SideDrawer show={sideDrawerOpen} setSideDrawerOpen={setSideDrawerOpen} sideDrawerOpen={sideDrawerOpen} />

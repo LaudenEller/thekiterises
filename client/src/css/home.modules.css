@@ -1,4 +1,4 @@
-#home_page {
+.home_page {
     --bg: 255,255,255;
     --alpha-bg: 1;
     --shc-mutated-brightness: 128,128,128;
@@ -10,14 +10,14 @@
     --top: 0px;
   }
   
-  #home_page:not(.home_page-container) {
+  .home_page:not(.home_page-container) {
     display: var(--l_display,var(--container-display));
     grid-template-rows: 1fr;
     grid-template-columns: minmax(0, 1fr);
     --container-display: grid;
   }
   
-  #home_page .home_page-container {
+  .home_page-container {
     position: relative;
     box-sizing: border-box;
     display: var(--l_display,var(--container-display));
@@ -26,7 +26,7 @@
     --container-display: grid;
   }
 
-  .page_bg .page_bg-home_page {
+  .home_page_bg {
     background-color: rgba(var(--bg,var(--color_11)),var(--alpha-bg,1));
     bottom: 0;
     left: 0;

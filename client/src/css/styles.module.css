@@ -322,5 +322,5 @@ code {
 
 @font-face {
     font-family: 'lulo-clean-w01-one-bold';
-    src: local('lulo-clean-w01-one-bold') url('./fonts/lulo-clean-w01-one-bold.ttf') format('truetype');
+    src: local('lulo-clean-w01-one-bold') url('../fonts/lulo-clean-w01-one-bold.ttf') format('truetype');
 }

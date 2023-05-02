@@ -12,6 +12,7 @@ import WelcomeBanner from "../components/WelcomeBanner"
 import Navbar from "../components/Navbar2"
 import "./Home.css"
 import "../components/nav/NavBar.css"
+import styles from '../css/home.module.css'
 // import SiteContainer from "./SiteContainer"
 
 
@@ -48,15 +49,15 @@ const Home = () => {
 
     return (
 
-        <div id="home_page" className={"home_page page_bg"}>
-            <div className='page_bg-home_page'></div>
+        <div id="home_page" className={'{styles.home_page} {styles.page_bg}'}>
+            <div className={styles.home_page_bg}></div>
             <div>
-                <div className='home_page-container'>
-                <header id="nav" className="nav nav-container">
+                <div className={home_page-container}>
+                <header id="nav" className={'{styles.nav styles.nav-container}'}>
                     <Navbar drawerClickHandler={DrawerTogglerHandler}/>
                     <SideDrawer show={sideDrawerOpen} setSideDrawerOpen={setSideDrawerOpen} sideDrawerOpen={sideDrawerOpen} />
                     </header>
-                    <main id="page_sections-home" className="display_contents">
+                    <main id="page_sections-home" className={styles.display_contents}>
                         {/* fetched data that will be removed from this page */}
                         {/* <div className="workSamples">
                 {worksamples && worksamples.map((worksample) => (
